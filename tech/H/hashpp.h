@@ -17,7 +17,19 @@
 // If you have larger things you want to hash, use cHashSet. 
 //
 
-class cHashHelperFunctions;
+////////////////////////////////////////////////////////////
+// HELPER FUNCTION CLASS
+//
+
+class cHashHelperFunctions
+{
+protected:
+   static int hashlog2(int x);
+   static int expmod(int b, int e, uint m);
+   static bool is_fermat_prime(uint n, uint numtests);
+   static bool is_prime(uint n);
+};
+
 template <class KEY, class VALUE, class FUNC> class cHashIter;
 
 template <class KEY, class VALUE, class FUNC /* == cHashTableFunctions<KEY> */> 
@@ -173,20 +185,6 @@ public:
    {
       return k1 == k2;
    }
-};
-
-
-////////////////////////////////////////////////////////////
-// HELPER FUNCTION CLASS
-//
-
-class cHashHelperFunctions
-{
-protected:
-   static int hashlog2(int x);
-   static int expmod(int b, int e, uint m);
-   static bool is_fermat_prime(uint n, uint numtests);
-   static bool is_prime(uint n);
 };
 
 ////////////////////////////////////////////////////////////
