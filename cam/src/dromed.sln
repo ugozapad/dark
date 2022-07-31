@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Dromed", "dromed.vcproj", "{A9D85ED5-27D6-48A8-9C63-D0E80C878844}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Opt No Precompiled Header|Win32 = Opt No Precompiled Header|Win32
+		Opt|Win32 = Opt|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9D85ED5-27D6-48A8-9C63-D0E80C878844}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A9D85ED5-27D6-48A8-9C63-D0E80C878844}.Debug|Win32.Build.0 = Debug|Win32
+		{A9D85ED5-27D6-48A8-9C63-D0E80C878844}.Opt No Precompiled Header|Win32.ActiveCfg = Opt No Precompiled Header|Win32
+		{A9D85ED5-27D6-48A8-9C63-D0E80C878844}.Opt No Precompiled Header|Win32.Build.0 = Opt No Precompiled Header|Win32
+		{A9D85ED5-27D6-48A8-9C63-D0E80C878844}.Opt|Win32.ActiveCfg = Opt|Win32
+		{A9D85ED5-27D6-48A8-9C63-D0E80C878844}.Opt|Win32.Build.0 = Opt|Win32
+		{A9D85ED5-27D6-48A8-9C63-D0E80C878844}.Release|Win32.ActiveCfg = Release|Win32
+		{A9D85ED5-27D6-48A8-9C63-D0E80C878844}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
