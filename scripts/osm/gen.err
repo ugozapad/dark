@@ -1,3 +1,0 @@
-..\src\gizmo.scr(1611) : error C2039: 'SetBlocking' : is not a member of 'IDoorScriptService'
-..\src\gizmo.scr(1623) : error C2039: 'SetBlocking' : is not a member of 'IDoorScriptService'
-..\src\gizmo.scr(1630) : error C2039: 'SetBlocking' : is not a member of 'IDoorScriptService'

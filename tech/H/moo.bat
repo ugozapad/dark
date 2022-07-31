@@ -1,1 +1,0 @@
-grep "typedef.*enum.*;" *.h
