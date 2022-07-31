@@ -1,0 +1,85 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: matrix - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP3D4F.bat" with contents
+[
+@echo off
+"C:\Program Files (x86)\Microsoft Visual Studio\VC98\Bin\ml.exe" /nologo /I"..\..\inc" /I"..\dev2d" /c /Zi /Fo.\..\_Bins\Release\matrix\transasm.obj transasm.asm
+]
+Creating command line "C:\Users\Infernus\AppData\Local\Temp\RSP3D4F.bat"
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP3D50.tmp" with contents
+[
+/nologo /Zp1 /MT /W3 /GX /O2 /I "." /I "..\..\h" /I "..\lg" /I "..\actmovie" /I "..\appcore" /I "..\arq" /I "..\compapis" /I "..\matrix" /I "..\config" /I "..\cpptools" /I "..\darkloop" /I "..\dev2d" /I "..\dispdev" /I "..\dstruct" /I "..\dump" /I "..\fix" /I "..\font" /I "..\g2" /I "..\gadget" /I "..\gameshel" /I "..\gfile" /I "..\inputbnd" /I "..\lgalloc" /I "..\lgd3d" /I "..\md" /I "..\mm" /I "..\mp" /I "..\mprintf" /I "..\namedres" /I "..\net" /I "..\prof" /I "..\r3d" /I "..\random" /I "..\recorder" /I "..\ref" /I "..\res" /I "..\rnd" /I "..\script" /I "..\sdesc" /I "..\skel" /I "..\sndsrc" /I "..\sndutil" /I "..\sound" /I "..\star" /I "..\tagfile" /I "..\templgen" /I "..\timer" /I "..\ui" /I "..\vec2" /I "..\..\winsrc\input" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fr"..\_Bins\Release\matrix/" /Fo"..\_Bins\Release\matrix/" /FI "..\..\h\lg_types.h" /c 
+"D:\Source\DarkEngine\prj\tech\libsrc\matrix\dmat.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\matrix\matang.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\matrix\matangd.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\matrix\matmat.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\matrix\matmatd.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\matrix\matvec.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\matrix\matvecd.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\matrix\trans.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\matrix\transd.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\matrix\vec2.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\matrix\vec2d.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\matrix\vecang.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\matrix\vecangd.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\matrix\vecvec.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\matrix\vecvecd.c"
+]
+Creating command line "cl.exe @C:\Users\Infernus\AppData\Local\Temp\RSP3D50.tmp" 
+Performing Custom Build Step on .\transasm.asm
+ Assembling: transasm.asm
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP3DED.tmp" with contents
+[
+/nologo /out:"..\_Libs\Release\matrix.lib" 
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\matrix\dmat.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\matrix\matang.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\matrix\matangd.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\matrix\matmat.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\matrix\matmatd.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\matrix\matvec.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\matrix\matvecd.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\matrix\trans.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\matrix\transd.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\matrix\vec2.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\matrix\vec2d.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\matrix\vecang.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\matrix\vecangd.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\matrix\vecvec.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\matrix\vecvecd.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\matrix\transasm.obj
+]
+Creating command line "link.exe -lib @C:\Users\Infernus\AppData\Local\Temp\RSP3DED.tmp"
+<h3>Output Window</h3>
+Compiling...
+dmat.c
+matang.c
+matangd.c
+matmat.c
+matmatd.c
+matvec.c
+matvecd.c
+trans.c
+transd.c
+vec2.c
+vec2d.c
+vecang.c
+vecangd.c
+vecvec.c
+vecvecd.c
+Generating Code...
+Creating library...
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\matrix\transasm.obj : warning LNK4033: converting object format from OMF to COFF
+
+
+
+<h3>Results</h3>
+matrix.lib - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

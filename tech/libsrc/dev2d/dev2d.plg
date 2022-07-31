@@ -1,0 +1,471 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: dev2d - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP28D4.bat" with contents
+[
+@echo off
+"C:\Program Files (x86)\Microsoft Visual Studio\VC98\Bin\ml.exe" /nologo /I"..\..\inc" /c /Zi /Fo.\..\_Bins\Release\dev2d\vgasmod.obj vgasmod.asm
+]
+Creating command line "C:\Users\Infernus\AppData\Local\Temp\RSP28D4.bat"
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP28E5.bat" with contents
+[
+@echo off
+"C:\Program Files (x86)\Microsoft Visual Studio\VC98\Bin\ml.exe" /nologo /I"..\..\inc" /c /Zi /Fo.\..\_Bins\Release\dev2d\vgaasm.obj vgaasm.asm
+]
+Creating command line "C:\Users\Infernus\AppData\Local\Temp\RSP28E5.bat"
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP28E6.bat" with contents
+[
+@echo off
+"C:\Program Files (x86)\Microsoft Visual Studio\VC98\Bin\ml.exe" /nologo /I"..\..\inc" /c /Zi /Fo.\..\_Bins\Release\dev2d\vesaasm.obj vesaasm.asm
+]
+Creating command line "C:\Users\Infernus\AppData\Local\Temp\RSP28E6.bat"
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP28E7.bat" with contents
+[
+@echo off
+"C:\Program Files (x86)\Microsoft Visual Studio\VC98\Bin\ml.exe" /nologo /I"..\..\inc" /c /Zi /Fo.\..\_Bins\Release\dev2d\rsdunpck.obj rsdunpck.asm
+]
+Creating command line "C:\Users\Infernus\AppData\Local\Temp\RSP28E7.bat"
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP28E8.bat" with contents
+[
+@echo off
+"C:\Program Files (x86)\Microsoft Visual Studio\VC98\Bin\ml.exe" /nologo /I"..\..\inc" /c /Zi /Fo.\..\_Bins\Release\dev2d\rsdblt8.obj rsdblt8.asm
+]
+Creating command line "C:\Users\Infernus\AppData\Local\Temp\RSP28E8.bat"
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP28E9.bat" with contents
+[
+@echo off
+"C:\Program Files (x86)\Microsoft Visual Studio\VC98\Bin\ml.exe" /nologo /I"..\..\inc" /c /Zi /Fo.\..\_Bins\Release\dev2d\rsdblt16.obj rsdblt16.asm
+]
+Creating command line "C:\Users\Infernus\AppData\Local\Temp\RSP28E9.bat"
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP28EA.bat" with contents
+[
+@echo off
+"C:\Program Files (x86)\Microsoft Visual Studio\VC98\Bin\ml.exe" /nologo /I"..\..\inc" /c /Zi /Fo.\..\_Bins\Release\dev2d\rsdblt.obj rsdblt.asm
+]
+Creating command line "C:\Users\Infernus\AppData\Local\Temp\RSP28EA.bat"
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP28EB.bat" with contents
+[
+@echo off
+"C:\Program Files (x86)\Microsoft Visual Studio\VC98\Bin\ml.exe" /nologo /I"..\..\inc" /c /Zi /Fo.\..\_Bins\Release\dev2d\light.obj light.asm
+]
+Creating command line "C:\Users\Infernus\AppData\Local\Temp\RSP28EB.bat"
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP28EC.bat" with contents
+[
+@echo off
+"C:\Program Files (x86)\Microsoft Visual Studio\VC98\Bin\ml.exe" /nologo /I"..\..\inc" /c /Zi /Fo.\..\_Bins\Release\dev2d\f16set.obj f16set.asm
+]
+Creating command line "C:\Users\Infernus\AppData\Local\Temp\RSP28EC.bat"
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP28ED.bat" with contents
+[
+@echo off
+"C:\Program Files (x86)\Microsoft Visual Studio\VC98\Bin\ml.exe" /nologo /I"..\..\inc" /c /Zi /Fo.\..\_Bins\Release\dev2d\f16il.obj f16il.asm
+]
+Creating command line "C:\Users\Infernus\AppData\Local\Temp\RSP28ED.bat"
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP28FE.bat" with contents
+[
+@echo off
+"C:\Program Files (x86)\Microsoft Visual Studio\VC98\Bin\ml.exe" /nologo /I"..\..\inc" /c /Zi /Fo.\..\_Bins\Release\dev2d\f16fl8il.obj f16fl8il.asm
+]
+Creating command line "C:\Users\Infernus\AppData\Local\Temp\RSP28FE.bat"
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP28FF.bat" with contents
+[
+@echo off
+"C:\Program Files (x86)\Microsoft Visual Studio\VC98\Bin\ml.exe" /nologo /I"..\..\inc" /c /Zi /Fo.\..\_Bins\Release\dev2d\f16f16l.obj f16f16l.asm
+]
+Creating command line "C:\Users\Infernus\AppData\Local\Temp\RSP28FF.bat"
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP2900.bat" with contents
+[
+@echo off
+"C:\Program Files (x86)\Microsoft Visual Studio\VC98\Bin\ml.exe" /nologo /I"..\..\inc" /c /Zi /Fo.\..\_Bins\Release\dev2d\f16f16c.obj f16f16c.asm
+]
+Creating command line "C:\Users\Infernus\AppData\Local\Temp\RSP2900.bat"
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP2901.bat" with contents
+[
+@echo off
+"C:\Program Files (x86)\Microsoft Visual Studio\VC98\Bin\ml.exe" /nologo /I"..\..\inc" /c /Zi /Fo.\..\_Bins\Release\dev2d\cstring.obj cstring.asm
+]
+Creating command line "C:\Users\Infernus\AppData\Local\Temp\RSP2901.bat"
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP2902.tmp" with contents
+[
+/nologo /Zp1 /MT /W3 /GX /O2 /I "." /I "..\..\h" /I "..\lg" /I "..\actmovie" /I "..\appcore" /I "..\arq" /I "..\compapis" /I "..\comtools" /I "..\config" /I "..\cpptools" /I "..\darkloop" /I "..\dev2d" /I "..\dispdev" /I "..\dstruct" /I "..\dump" /I "..\fix" /I "..\font" /I "..\g2" /I "..\gadget" /I "..\gameshel" /I "..\gfile" /I "..\inputbnd" /I "..\lgalloc" /I "..\lgd3d" /I "..\matrix" /I "..\md" /I "..\mm" /I "..\mp" /I "..\mprintf" /I "..\namedres" /I "..\net" /I "..\prof" /I "..\r3d" /I "..\random" /I "..\recorder" /I "..\ref" /I "..\res" /I "..\rnd" /I "..\script" /I "..\sdesc" /I "..\skel" /I "..\sndsrc" /I "..\sndutil" /I "..\sound" /I "..\star" /I "..\tagfile" /I "..\templgen" /I "..\timer" /I "..\ui" /I "..\vec2" /I "..\..\winsrc\input" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fr"..\_Bins\Release\dev2d/" /Fo"..\_Bins\Release\dev2d/" /FI "..\..\h\lg_types.h" /c 
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\astring.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\bank.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\bitmap.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\bk8bm.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\bk8fl8.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\bk8hlin.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\bk8lin.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\bk8pix.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\bk8pix8.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\bk8vlin.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\blend.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\canvas.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\clpfl8.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\clut16.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\cominit.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\cpal.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\ddevblt.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\devstubs.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\f16bm.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\f16f16.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\f16fl8.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\f16hlin.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\f16lin.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\f16mono.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\f16pix.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\f16pix16.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\f16pix8.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\f16rsd8.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\f16vlin.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\fcolor.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\fl8bk8.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\fl8bm.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\fl8fl8.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\fl8hlin.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\fl8lin.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\fl8mono.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\fl8mx.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\fl8pix.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\fl8pix8.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\fl8rsd8.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\fl8vlin.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\gdbm.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\gdgbm.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\gdlin.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\gdpix.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\gdrect.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\gdtest.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\genbm.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\genf16.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\genf16u.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\genfl8.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\genfl8u.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\genlin.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\genmono.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\genmonou.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\genmx.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\genrsd8.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\gpal.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\gpix.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\gr.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\grd.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\grmalloc.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\grnull.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\hflip.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\init.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\ipal.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\lpix.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\ltab.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\mode.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\mxbm.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\mxfl8.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\mxhlin.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\mxlatch.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\mxlin.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\mxpix.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\mxpix8.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\mxvlin.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\novinit.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\nulcnv.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\nulldfcn.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\pal.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\pal16.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\rsdcvt.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\screen.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\sfoc.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\smode.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\stastk.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\svgainit.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\tluctab.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\valloc.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\vesac.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\vgastate.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\dev2d\vsastate.c"
+]
+Creating command line "cl.exe @C:\Users\Infernus\AppData\Local\Temp\RSP2902.tmp" 
+Performing Custom Build Step on .\vgasmod.asm
+ Assembling: vgasmod.asm
+Performing Custom Build Step on .\vgaasm.asm
+ Assembling: vgaasm.asm
+Performing Custom Build Step on .\vesaasm.asm
+ Assembling: vesaasm.asm
+Performing Custom Build Step on .\rsdunpck.asm
+ Assembling: rsdunpck.asm
+Performing Custom Build Step on .\rsdblt8.asm
+ Assembling: rsdblt8.asm
+Performing Custom Build Step on .\rsdblt16.asm
+ Assembling: rsdblt16.asm
+Performing Custom Build Step on .\rsdblt.asm
+ Assembling: rsdblt.asm
+Performing Custom Build Step on .\light.asm
+ Assembling: light.asm
+Performing Custom Build Step on .\f16set.asm
+ Assembling: f16set.asm
+Performing Custom Build Step on .\f16il.asm
+ Assembling: f16il.asm
+Performing Custom Build Step on .\f16fl8il.asm
+ Assembling: f16fl8il.asm
+Performing Custom Build Step on .\f16f16l.asm
+ Assembling: f16f16l.asm
+Performing Custom Build Step on .\f16f16c.asm
+ Assembling: f16f16c.asm
+Performing Custom Build Step on .\cstring.asm
+ Assembling: cstring.asm
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP2C20.tmp" with contents
+[
+/nologo /out:"..\_Libs\Release\dev2d.lib" 
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\astring.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\bank.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\bitmap.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\bk8bm.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\bk8fl8.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\bk8hlin.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\bk8lin.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\bk8pix.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\bk8pix8.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\bk8vlin.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\blend.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\canvas.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\clpfl8.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\clut16.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\cominit.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\cpal.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\ddevblt.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\devstubs.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\f16bm.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\f16f16.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\f16fl8.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\f16hlin.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\f16lin.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\f16mono.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\f16pix.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\f16pix16.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\f16pix8.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\f16rsd8.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\f16vlin.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\fcolor.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\fl8bk8.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\fl8bm.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\fl8fl8.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\fl8hlin.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\fl8lin.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\fl8mono.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\fl8mx.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\fl8pix.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\fl8pix8.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\fl8rsd8.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\fl8vlin.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\gdbm.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\gdgbm.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\gdlin.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\gdpix.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\gdrect.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\gdtest.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\genbm.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\genf16.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\genf16u.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\genfl8.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\genfl8u.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\genlin.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\genmono.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\genmonou.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\genmx.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\genrsd8.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\gpal.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\gpix.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\gr.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\grd.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\grmalloc.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\grnull.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\hflip.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\init.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\ipal.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\lpix.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\ltab.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\mode.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\mxbm.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\mxfl8.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\mxhlin.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\mxlatch.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\mxlin.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\mxpix.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\mxpix8.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\mxvlin.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\novinit.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\nulcnv.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\nulldfcn.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\pal.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\pal16.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\rsdcvt.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\screen.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\sfoc.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\smode.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\stastk.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\svgainit.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\tluctab.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\valloc.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\vesac.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\vgastate.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\vsastate.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\cstring.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\f16f16c.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\f16f16l.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\f16fl8il.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\f16il.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\f16set.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\light.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\rsdblt.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\rsdblt16.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\rsdblt8.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\rsdunpck.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\vesaasm.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\vgaasm.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\vgasmod.obj
+]
+Creating command line "link.exe -lib @C:\Users\Infernus\AppData\Local\Temp\RSP2C20.tmp"
+<h3>Output Window</h3>
+Compiling...
+astring.c
+bank.c
+bitmap.c
+bk8bm.c
+bk8fl8.c
+bk8hlin.c
+bk8lin.c
+bk8pix.c
+bk8pix8.c
+bk8vlin.c
+blend.c
+canvas.c
+D:\Source\DarkEngine\prj\tech\libsrc\dev2d\canvas.c(177) : warning C4005: 'min' : macro redefinition
+        C:\Platform SDK for Windows Server 2003 R2\Include\windef.h(193) : see previous definition of 'min'
+D:\Source\DarkEngine\prj\tech\libsrc\dev2d\canvas.c(178) : warning C4005: 'max' : macro redefinition
+        C:\Platform SDK for Windows Server 2003 R2\Include\windef.h(189) : see previous definition of 'max'
+clpfl8.c
+clut16.c
+cominit.c
+cpal.c
+ddevblt.c
+D:\Source\DarkEngine\prj\tech\libsrc\dev2d\ddevblt.c(66) : warning C4550: expression evaluates to a function which is missing an argument list
+devstubs.c
+f16bm.c
+f16f16.c
+D:\Source\DarkEngine\prj\tech\libsrc\dev2d\f16f16.c(32) : warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+Generating Code...
+Compiling...
+f16fl8.c
+f16hlin.c
+f16lin.c
+f16mono.c
+f16pix.c
+D:\Source\DarkEngine\prj\tech\libsrc\dev2d\f16pix.c(34) : warning C4550: expression evaluates to a function which is missing an argument list
+D:\Source\DarkEngine\prj\tech\libsrc\dev2d\f16pix.c(45) : warning C4550: expression evaluates to a function which is missing an argument list
+f16pix16.c
+f16pix8.c
+f16rsd8.c
+f16vlin.c
+fcolor.c
+fl8bk8.c
+fl8bm.c
+fl8fl8.c
+D:\Source\DarkEngine\prj\tech\libsrc\dev2d\fl8fl8.c(26) : warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+fl8hlin.c
+fl8lin.c
+fl8mono.c
+fl8mx.c
+fl8pix.c
+D:\Source\DarkEngine\prj\tech\libsrc\dev2d\fl8pix.c(31) : warning C4550: expression evaluates to a function which is missing an argument list
+fl8pix8.c
+fl8rsd8.c
+Generating Code...
+Compiling...
+fl8vlin.c
+gdbm.c
+gdgbm.c
+gdlin.c
+gdpix.c
+gdrect.c
+gdtest.c
+genbm.c
+genf16.c
+genf16u.c
+genfl8.c
+genfl8u.c
+genlin.c
+genmono.c
+genmonou.c
+genmx.c
+genrsd8.c
+gpal.c
+gpix.c
+gr.c
+Generating Code...
+Compiling...
+grd.c
+grmalloc.c
+D:\Source\DarkEngine\prj\tech\libsrc\dev2d\grmalloc.c(18) : warning C4028: formal parameter 1 different from declaration
+grnull.c
+hflip.c
+init.c
+ipal.c
+lpix.c
+D:\Source\DarkEngine\prj\tech\libsrc\dev2d\lpix.c(49) : warning C4550: expression evaluates to a function which is missing an argument list
+D:\Source\DarkEngine\prj\tech\libsrc\dev2d\lpix.c(55) : warning C4550: expression evaluates to a function which is missing an argument list
+D:\Source\DarkEngine\prj\tech\libsrc\dev2d\lpix.c(60) : warning C4550: expression evaluates to a function which is missing an argument list
+ltab.c
+mode.c
+mxbm.c
+mxfl8.c
+mxhlin.c
+mxlatch.c
+mxlin.c
+mxpix.c
+mxpix8.c
+mxvlin.c
+novinit.c
+nulcnv.c
+nulldfcn.c
+Generating Code...
+Compiling...
+pal.c
+pal16.c
+rsdcvt.c
+screen.c
+sfoc.c
+smode.c
+stastk.c
+svgainit.c
+tluctab.c
+valloc.c
+vesac.c
+vgastate.c
+vsastate.c
+Generating Code...
+Creating library...
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\cstring.obj : warning LNK4033: converting object format from OMF to COFF
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\f16f16c.obj : warning LNK4033: converting object format from OMF to COFF
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\f16f16l.obj : warning LNK4033: converting object format from OMF to COFF
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\f16fl8il.obj : warning LNK4033: converting object format from OMF to COFF
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\f16il.obj : warning LNK4033: converting object format from OMF to COFF
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\f16set.obj : warning LNK4033: converting object format from OMF to COFF
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\light.obj : warning LNK4033: converting object format from OMF to COFF
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\rsdblt.obj : warning LNK4033: converting object format from OMF to COFF
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\rsdblt16.obj : warning LNK4033: converting object format from OMF to COFF
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\rsdblt8.obj : warning LNK4033: converting object format from OMF to COFF
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\rsdunpck.obj : warning LNK4033: converting object format from OMF to COFF
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\vesaasm.obj : warning LNK4033: converting object format from OMF to COFF
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\vgaasm.obj : warning LNK4033: converting object format from OMF to COFF
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dev2d\vgasmod.obj : warning LNK4033: converting object format from OMF to COFF
+
+
+
+<h3>Results</h3>
+dev2d.lib - 0 error(s), 26 warning(s)
+</pre>
+</body>
+</html>

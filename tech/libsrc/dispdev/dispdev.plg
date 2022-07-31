@@ -1,0 +1,73 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: dispdev - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSPAE70.tmp" with contents
+[
+/nologo /Zp1 /MT /W3 /GX /O2 /I "." /I "..\..\h" /I "..\lg" /I "..\actmovie" /I "..\appcore" /I "..\arq" /I "..\compapis" /I "..\comtools" /I "..\config" /I "..\cpptools" /I "..\darkloop" /I "..\dev2d" /I "..\dispdev" /I "..\dstruct" /I "..\dump" /I "..\fix" /I "..\font" /I "..\g2" /I "..\gadget" /I "..\gameshel" /I "..\gfile" /I "..\inputbnd" /I "..\lgalloc" /I "..\lgd3d" /I "..\matrix" /I "..\md" /I "..\mm" /I "..\mp" /I "..\mprintf" /I "..\namedres" /I "..\net" /I "..\prof" /I "..\r3d" /I "..\random" /I "..\recorder" /I "..\ref" /I "..\res" /I "..\rnd" /I "..\script" /I "..\sdesc" /I "..\skel" /I "..\sndsrc" /I "..\sndutil" /I "..\sound" /I "..\star" /I "..\tagfile" /I "..\templgen" /I "..\timer" /I "..\ui" /I "..\vec2" /I "..\..\winsrc\input" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fr"..\_Bins\Release\dispdev/" /Fo"..\_Bins\Release\dispdev/" /FI "..\..\h\lg_types.h" /c 
+"D:\Source\DarkEngine\prj\tech\libsrc\dispdev\aggddraw.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\dispdev\cbchain.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\dispdev\dddynf.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\dispdev\dispbase.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\dispdev\wdcreate.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\dispdev\wddmode.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\dispdev\wdisp.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\dispdev\wdispdd.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\dispdev\wdispgdi.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\dispdev\wdisptls.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\dispdev\wdspgshl.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\dispdev\wdspmode.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\dispdev\wdspprov.cpp"
+]
+Creating command line "cl.exe @C:\Users\Infernus\AppData\Local\Temp\RSPAE70.tmp" 
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSPAE71.tmp" with contents
+[
+/nologo /out:"..\_Libs\Release\dispdev.lib" 
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dispdev\aggddraw.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dispdev\cbchain.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dispdev\dddynf.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dispdev\dispbase.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dispdev\wdcreate.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dispdev\wddmode.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dispdev\wdisp.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dispdev\wdispdd.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dispdev\wdispgdi.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dispdev\wdisptls.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dispdev\wdspgshl.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dispdev\wdspmode.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\dispdev\wdspprov.obj
+]
+Creating command line "link.exe -lib @C:\Users\Infernus\AppData\Local\Temp\RSPAE71.tmp"
+<h3>Output Window</h3>
+Compiling...
+aggddraw.cpp
+Add DirectX directory as a global - use Tools:Options
+D:\Source\DarkEngine\prj\tech\libsrc\dispdev\aggddraw.cpp(42) : error C2614: 'cAggDirectDraw' : illegal member initialization: 'm_AggregateControl' is not a base or member
+D:\Source\DarkEngine\prj\tech\libsrc\dispdev\aggddraw.cpp(42) : error C2614: 'cAggDirectDraw' : illegal member initialization: 'm_pOuterUnknown' is not a base or member
+D:\Source\DarkEngine\prj\tech\libsrc\dispdev\aggddraw.cpp(48) : error C2065: 'm_AggregateControl' : undeclared identifier
+cbchain.cpp
+dddynf.cpp
+dispbase.cpp
+wdcreate.cpp
+wddmode.cpp
+wdisp.cpp
+wdispdd.cpp
+wdispgdi.cpp
+wdisptls.cpp
+wdspgshl.cpp
+wdspmode.cpp
+wdspprov.cpp
+Generating Code...
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+dispdev.lib - 3 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

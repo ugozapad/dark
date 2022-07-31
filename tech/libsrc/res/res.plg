@@ -1,0 +1,109 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: res - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSPCF5D.tmp" with contents
+[
+/nologo /Zp1 /MT /W3 /GX /O2 /I "." /I "..\..\h" /I "..\lg" /I "..\actmovie" /I "..\appcore" /I "..\arq" /I "..\compapis" /I "..\comtools" /I "..\config" /I "..\cpptools" /I "..\darkloop" /I "..\dev2d" /I "..\dispdev" /I "..\dstruct" /I "..\dump" /I "..\fix" /I "..\font" /I "..\g2" /I "..\gadget" /I "..\gameshel" /I "..\gfile" /I "..\inputbnd" /I "..\lgalloc" /I "..\lgd3d" /I "..\matrix" /I "..\md" /I "..\mm" /I "..\mp" /I "..\mprintf" /I "..\namedres" /I "..\net" /I "..\prof" /I "..\r3d" /I "..\random" /I "..\recorder" /I "..\ref" /I "..\res" /I "..\rnd" /I "..\script" /I "..\sdesc" /I "..\skel" /I "..\sndsrc" /I "..\sndutil" /I "..\sound" /I "..\star" /I "..\tagfile" /I "..\templgen" /I "..\timer" /I "..\ui" /I "..\vec2" /I "..\..\winsrc\input" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fr"..\_Bins\Release\res/" /Fo"..\_Bins\Release\res/" /FI "..\..\h\lg_types.h" /c 
+"D:\Source\DarkEngine\prj\tech\libsrc\res\lzw.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\res\lzwfd2bf.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\res\pkzip.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\res\refacc.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\res\res.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\res\resacc.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\res\resagg.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\res\resarq.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\res\resbuild.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\res\rescache.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\res\rescback.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\res\rescum.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\res\resexblk.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\res\resfile.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\res\resguid.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\res\resload.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\res\resmake.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\res\resmem.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\res\resmisc.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\res\resthred.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\res\restypes.cpp"
+]
+Creating command line "cl.exe @C:\Users\Infernus\AppData\Local\Temp\RSPCF5D.tmp" 
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSPCF6E.tmp" with contents
+[
+/nologo /out:"..\_Libs\Release\res.lib" 
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\res\lzw.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\res\lzwfd2bf.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\res\pkzip.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\res\refacc.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\res\res.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\res\resacc.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\res\resagg.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\res\resarq.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\res\resbuild.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\res\rescache.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\res\rescback.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\res\rescum.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\res\resexblk.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\res\resfile.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\res\resguid.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\res\resload.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\res\resmake.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\res\resmem.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\res\resmisc.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\res\resthred.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\res\restypes.obj
+]
+Creating command line "link.exe -lib @C:\Users\Infernus\AppData\Local\Temp\RSPCF6E.tmp"
+<h3>Output Window</h3>
+Compiling...
+lzw.cpp
+D:\Source\DarkEngine\prj\tech\libsrc\res\lzw.cpp(191) : warning C4081: expected '('; found 'constant'
+lzwfd2bf.cpp
+pkzip.cpp
+refacc.cpp
+res.cpp
+resacc.cpp
+Generating Code...
+Compiling...
+resagg.c
+Generating Code...
+Compiling...
+resarq.cpp
+D:\Source\DarkEngine\prj\tech\libsrc\res\resarq.cpp(407) : warning C4291: 'void *__cdecl cResARQFulfiller::sResRequest::operator new(unsigned int)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+        .\resarq.h(120) : see declaration of 'new'
+resbuild.cpp
+D:\Source\DarkEngine\prj\tech\libsrc\res\resbuild.cpp(246) : warning C4390: ';' : empty controlled statement found; is this the intent?
+rescache.cpp
+D:\Source\DarkEngine\prj\tech\libsrc\res\rescache.cpp(201) : warning C4291: 'void *__cdecl sRSCItem::operator new(unsigned int)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+        D:\Source\DarkEngine\prj\tech\libsrc\res\rescache.cpp(62) : see declaration of 'new'
+rescback.cpp
+rescum.cpp
+resexblk.cpp
+resfile.cpp
+Generating Code...
+Compiling...
+resguid.c
+Generating Code...
+Compiling...
+resload.cpp
+resmake.cpp
+resmem.cpp
+D:\Source\DarkEngine\prj\tech\libsrc\res\resmem.cpp(68) : warning C4390: ';' : empty controlled statement found; is this the intent?
+resmisc.cpp
+D:\Source\DarkEngine\prj\tech\libsrc\res\resmisc.cpp(38) : warning C4390: ';' : empty controlled statement found; is this the intent?
+resthred.cpp
+restypes.cpp
+Generating Code...
+Creating library...
+
+
+
+<h3>Results</h3>
+res.lib - 0 error(s), 6 warning(s)
+</pre>
+</body>
+</html>

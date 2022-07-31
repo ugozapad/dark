@@ -1,0 +1,174 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: timer - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSPF377.bat" with contents
+[
+@echo off
+"C:\Program Files (x86)\Microsoft Visual Studio\VC98\Bin\ml.exe" /nologo /I"..\..\inc" /c /Zi /Fo.\..\_Bins\Release\timer\tmsper.obj tmsper.asm
+]
+Creating command line "C:\Users\Infernus\AppData\Local\Temp\RSPF377.bat"
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSPF378.bat" with contents
+[
+@echo off
+"C:\Program Files (x86)\Microsoft Visual Studio\VC98\Bin\ml.exe" /nologo /I"..\..\inc" /c /Zi /Fo.\..\_Bins\Release\timer\tmsfreq.obj tmsfreq.asm
+]
+Creating command line "C:\Users\Infernus\AppData\Local\Temp\RSPF378.bat"
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSPF379.bat" with contents
+[
+@echo off
+"C:\Program Files (x86)\Microsoft Visual Studio\VC98\Bin\ml.exe" /nologo /I"..\..\inc" /c /Zi /Fo.\..\_Bins\Release\timer\tmsden.obj tmsden.asm
+]
+Creating command line "C:\Users\Infernus\AppData\Local\Temp\RSPF379.bat"
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSPF37A.bat" with contents
+[
+@echo off
+"C:\Program Files (x86)\Microsoft Visual Studio\VC98\Bin\ml.exe" /nologo /I"..\..\inc" /c /Zi /Fo.\..\_Bins\Release\timer\tmrem.obj tmrem.asm
+]
+Creating command line "C:\Users\Infernus\AppData\Local\Temp\RSPF37A.bat"
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSPF37B.bat" with contents
+[
+@echo off
+"C:\Program Files (x86)\Microsoft Visual Studio\VC98\Bin\ml.exe" /nologo /I"..\..\inc" /c /Zi /Fo.\..\_Bins\Release\timer\tmrate.obj tmrate.asm
+]
+Creating command line "C:\Users\Infernus\AppData\Local\Temp\RSPF37B.bat"
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSPF37C.bat" with contents
+[
+@echo off
+"C:\Program Files (x86)\Microsoft Visual Studio\VC98\Bin\ml.exe" /nologo /I"..\..\inc" /c /Zi /Fo.\..\_Bins\Release\timer\tmphnd.obj tmphnd.asm
+]
+Creating command line "C:\Users\Infernus\AppData\Local\Temp\RSPF37C.bat"
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSPF37D.bat" with contents
+[
+@echo off
+"C:\Program Files (x86)\Microsoft Visual Studio\VC98\Bin\ml.exe" /nologo /I"..\..\inc" /c /Zi /Fo.\..\_Bins\Release\timer\tminit.obj tminit.asm
+]
+Creating command line "C:\Users\Infernus\AppData\Local\Temp\RSPF37D.bat"
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSPF38E.bat" with contents
+[
+@echo off
+"C:\Program Files (x86)\Microsoft Visual Studio\VC98\Bin\ml.exe" /nologo /I"..\..\inc" /c /Zi /Fo.\..\_Bins\Release\timer\tmfast.obj tmfast.asm
+]
+Creating command line "C:\Users\Infernus\AppData\Local\Temp\RSPF38E.bat"
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSPF38F.bat" with contents
+[
+@echo off
+"C:\Program Files (x86)\Microsoft Visual Studio\VC98\Bin\ml.exe" /nologo /I"..\..\inc" /c /Zi /Fo.\..\_Bins\Release\timer\tmdeact.obj tmdeact.asm
+]
+Creating command line "C:\Users\Infernus\AppData\Local\Temp\RSPF38F.bat"
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSPF390.bat" with contents
+[
+@echo off
+"C:\Program Files (x86)\Microsoft Visual Studio\VC98\Bin\ml.exe" /nologo /I"..\..\inc" /c /Zi /Fo.\..\_Bins\Release\timer\tmd.obj tmd.asm
+]
+Creating command line "C:\Users\Infernus\AppData\Local\Temp\RSPF390.bat"
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSPF391.bat" with contents
+[
+@echo off
+"C:\Program Files (x86)\Microsoft Visual Studio\VC98\Bin\ml.exe" /nologo /I"..\..\inc" /c /Zi /Fo.\..\_Bins\Release\timer\tmclose.obj tmclose.asm
+]
+Creating command line "C:\Users\Infernus\AppData\Local\Temp\RSPF391.bat"
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSPF392.bat" with contents
+[
+@echo off
+"C:\Program Files (x86)\Microsoft Visual Studio\VC98\Bin\ml.exe" /nologo /I"..\..\inc" /c /Zi /Fo.\..\_Bins\Release\timer\tmadd.obj tmadd.asm
+]
+Creating command line "C:\Users\Infernus\AppData\Local\Temp\RSPF392.bat"
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSPF393.bat" with contents
+[
+@echo off
+"C:\Program Files (x86)\Microsoft Visual Studio\VC98\Bin\ml.exe" /nologo /I"..\..\inc" /c /Zi /Fo.\..\_Bins\Release\timer\tmact.obj tmact.asm
+]
+Creating command line "C:\Users\Infernus\AppData\Local\Temp\RSPF393.bat"
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSPF394.tmp" with contents
+[
+/nologo /Zp1 /MT /W3 /GX /O2 /I "." /I "..\..\h" /I "..\lg" /I "..\actmovie" /I "..\appcore" /I "..\arq" /I "..\compapis" /I "..\comtools" /I "..\config" /I "..\cpptools" /I "..\darkloop" /I "..\dev2d" /I "..\dispdev" /I "..\dstruct" /I "..\dump" /I "..\fix" /I "..\font" /I "..\g2" /I "..\gadget" /I "..\gameshel" /I "..\gfile" /I "..\inputbnd" /I "..\lgalloc" /I "..\lgd3d" /I "..\matrix" /I "..\md" /I "..\mm" /I "..\mp" /I "..\mprintf" /I "..\namedres" /I "..\net" /I "..\prof" /I "..\r3d" /I "..\random" /I "..\recorder" /I "..\ref" /I "..\res" /I "..\rnd" /I "..\script" /I "..\sdesc" /I "..\skel" /I "..\sndsrc" /I "..\sndutil" /I "..\sound" /I "..\star" /I "..\tagfile" /I "..\templgen" /I "..\timer" /I "..\ui" /I "..\vec2" /I "..\..\winsrc\input" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fr"..\_Bins\Release\timer/" /Fo"..\_Bins\Release\timer/" /FI "..\..\h\lg_types.h" /c 
+"D:\Source\DarkEngine\prj\tech\libsrc\timer\tmail.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\timer\tmftab.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\timer\tmlibt.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\timer\tmrt.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\timer\tmwin32.c"
+]
+Creating command line "cl.exe @C:\Users\Infernus\AppData\Local\Temp\RSPF394.tmp" 
+Performing Custom Build Step on .\tmsper.asm
+ Assembling: tmsper.asm
+Performing Custom Build Step on .\tmsfreq.asm
+ Assembling: tmsfreq.asm
+Performing Custom Build Step on .\tmsden.asm
+ Assembling: tmsden.asm
+Performing Custom Build Step on .\tmrem.asm
+ Assembling: tmrem.asm
+Performing Custom Build Step on .\tmrate.asm
+ Assembling: tmrate.asm
+Performing Custom Build Step on .\tmphnd.asm
+ Assembling: tmphnd.asm
+Performing Custom Build Step on .\tminit.asm
+ Assembling: tminit.asm
+Performing Custom Build Step on .\tmfast.asm
+ Assembling: tmfast.asm
+Performing Custom Build Step on .\tmdeact.asm
+ Assembling: tmdeact.asm
+Performing Custom Build Step on .\tmd.asm
+ Assembling: tmd.asm
+Performing Custom Build Step on .\tmclose.asm
+ Assembling: tmclose.asm
+Performing Custom Build Step on .\tmadd.asm
+ Assembling: tmadd.asm
+Performing Custom Build Step on .\tmact.asm
+ Assembling: tmact.asm
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSPF5E6.tmp" with contents
+[
+/nologo /out:"..\_Libs\Release\timer.lib" 
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\timer\tmail.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\timer\tmftab.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\timer\tmlibt.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\timer\tmrt.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\timer\tmwin32.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\timer\tmact.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\timer\tmadd.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\timer\tmclose.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\timer\tmd.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\timer\tmdeact.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\timer\tmfast.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\timer\tminit.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\timer\tmphnd.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\timer\tmrate.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\timer\tmrem.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\timer\tmsden.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\timer\tmsfreq.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\timer\tmsper.obj
+]
+Creating command line "link.exe -lib @C:\Users\Infernus\AppData\Local\Temp\RSPF5E6.tmp"
+<h3>Output Window</h3>
+Compiling...
+tmail.c
+D:\Source\DarkEngine\prj\tech\libsrc\timer\tmail.c(20) : warning C4013: 'AIL_register_timer' undefined; assuming extern returning int
+D:\Source\DarkEngine\prj\tech\libsrc\timer\tmail.c(21) : warning C4013: 'AIL_set_timer_divisor' undefined; assuming extern returning int
+D:\Source\DarkEngine\prj\tech\libsrc\timer\tmail.c(34) : warning C4013: 'AIL_release_timer_handle' undefined; assuming extern returning int
+D:\Source\DarkEngine\prj\tech\libsrc\timer\tmail.c(40) : warning C4013: 'AIL_start_timer' undefined; assuming extern returning int
+D:\Source\DarkEngine\prj\tech\libsrc\timer\tmail.c(46) : warning C4013: 'AIL_stop_timer' undefined; assuming extern returning int
+D:\Source\DarkEngine\prj\tech\libsrc\timer\tmail.c(57) : warning C4013: 'AIL_set_timer_frequency' undefined; assuming extern returning int
+D:\Source\DarkEngine\prj\tech\libsrc\timer\tmail.c(62) : warning C4013: 'AIL_set_timer_period' undefined; assuming extern returning int
+tmftab.c
+tmlibt.c
+tmrt.c
+tmwin32.c
+Generating Code...
+Creating library...
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\timer\tmact.obj : warning LNK4033: converting object format from OMF to COFF
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\timer\tmadd.obj : warning LNK4033: converting object format from OMF to COFF
+LINK : error : Segment reference in fixup record
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\timer\tmclose.obj : fatal error LNK1123: failure during conversion to COFF: file invalid or corrupt
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+timer.lib - 2 error(s), 9 warning(s)
+</pre>
+</body>
+</html>

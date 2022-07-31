@@ -1,0 +1,163 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: namedres - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP3331.tmp" with contents
+[
+/nologo /Zp1 /MT /W3 /GX /O2 /I "." /I "..\..\h" /I "..\lg" /I "..\actmovie" /I "..\appcore" /I "..\arq" /I "..\compapis" /I "..\comtools" /I "..\config" /I "..\cpptools" /I "..\darkloop" /I "..\dev2d" /I "..\dispdev" /I "..\dstruct" /I "..\dump" /I "..\fix" /I "..\font" /I "..\g2" /I "..\gadget" /I "..\gameshel" /I "..\gfile" /I "..\inputbnd" /I "..\lgalloc" /I "..\lgd3d" /I "..\matrix" /I "..\md" /I "..\mm" /I "..\mp" /I "..\mprintf" /I "..\namedres" /I "..\net" /I "..\prof" /I "..\r3d" /I "..\random" /I "..\recorder" /I "..\ref" /I "..\res" /I "..\rnd" /I "..\script" /I "..\sdesc" /I "..\skel" /I "..\sndsrc" /I "..\sndutil" /I "..\sound" /I "..\star" /I "..\tagfile" /I "..\templgen" /I "..\timer" /I "..\ui" /I "..\vec2" /I "..\..\winsrc\input" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fr"..\_Bins\Release\namedres/" /Fo"..\_Bins\Release\namedres/" /FI "..\..\h\lg_types.h" /c 
+"D:\Source\DarkEngine\prj\tech\libsrc\namedres\adler32.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\namedres\binrstyp.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\namedres\bmp.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\namedres\cel.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\namedres\defresm.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\namedres\defstfct.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\namedres\filestrm.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\namedres\fonrstyp.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\namedres\gif.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\namedres\imghack.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\namedres\imgrstyp.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\namedres\infblock.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\namedres\infcodes.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\namedres\inffast.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\namedres\inflate.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\namedres\inftrees.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\namedres\infutil.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\namedres\mdlrstyp.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\namedres\palrstyp.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\namedres\pathutil.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\namedres\pcx.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\namedres\resarq.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\namedres\resimage.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\namedres\resman.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\namedres\resmanhs.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\namedres\resmanx.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\namedres\respall.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\namedres\resstat.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\namedres\resstr.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\namedres\resutil.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\namedres\search.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\namedres\sndrstyp.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\namedres\storbase.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\namedres\storedir.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\namedres\storeman.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\namedres\storezip.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\namedres\strrstyp.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\namedres\tga.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\namedres\zipstfct.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\namedres\zipstrm.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\namedres\zutil.c"
+]
+Creating command line "cl.exe @C:\Users\Infernus\AppData\Local\Temp\RSP3331.tmp" 
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP3332.tmp" with contents
+[
+/nologo /out:"..\_Libs\Release\namedres.lib" 
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\namedres\adler32.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\namedres\binrstyp.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\namedres\bmp.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\namedres\cel.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\namedres\defresm.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\namedres\defstfct.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\namedres\filestrm.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\namedres\fonrstyp.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\namedres\gif.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\namedres\imghack.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\namedres\imgrstyp.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\namedres\infblock.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\namedres\infcodes.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\namedres\inffast.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\namedres\inflate.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\namedres\inftrees.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\namedres\infutil.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\namedres\mdlrstyp.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\namedres\palrstyp.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\namedres\pathutil.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\namedres\pcx.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\namedres\resarq.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\namedres\resimage.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\namedres\resman.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\namedres\resmanhs.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\namedres\resmanx.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\namedres\respall.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\namedres\resstat.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\namedres\resstr.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\namedres\resutil.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\namedres\search.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\namedres\sndrstyp.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\namedres\storbase.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\namedres\storedir.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\namedres\storeman.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\namedres\storezip.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\namedres\strrstyp.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\namedres\tga.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\namedres\zipstfct.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\namedres\zipstrm.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\namedres\zutil.obj
+]
+Creating command line "link.exe -lib @C:\Users\Infernus\AppData\Local\Temp\RSP3332.tmp"
+<h3>Output Window</h3>
+Compiling...
+adler32.c
+Generating Code...
+Compiling...
+binrstyp.cpp
+bmp.cpp
+cel.cpp
+defresm.cpp
+defstfct.cpp
+filestrm.cpp
+fonrstyp.cpp
+gif.cpp
+imghack.cpp
+imgrstyp.cpp
+Generating Code...
+Compiling...
+infblock.c
+infcodes.c
+inffast.c
+inflate.c
+inftrees.c
+infutil.c
+Generating Code...
+Compiling...
+mdlrstyp.cpp
+palrstyp.cpp
+pathutil.cpp
+pcx.cpp
+resarq.cpp
+resimage.cpp
+resman.cpp
+resmanhs.cpp
+resmanx.cpp
+respall.cpp
+resstat.cpp
+resstr.cpp
+resutil.cpp
+search.cpp
+sndrstyp.cpp
+storbase.cpp
+storedir.cpp
+storeman.cpp
+storezip.cpp
+strrstyp.cpp
+Generating Code...
+Compiling...
+tga.cpp
+zipstfct.cpp
+zipstrm.cpp
+Generating Code...
+Compiling...
+zutil.c
+Generating Code...
+Creating library...
+
+
+
+<h3>Results</h3>
+namedres.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

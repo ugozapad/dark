@@ -1,0 +1,74 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: fix - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP62D2.bat" with contents
+[
+@echo off
+"C:\Program Files (x86)\Microsoft Visual Studio\VC98\Bin\ml.exe" /nologo /I"..\..\inc" /I"..\dev2d" /c /Zi /Fo.\..\_Bins\Release\fix\fixdiv.obj fixdiv.asm
+]
+Creating command line "C:\Users\Infernus\AppData\Local\Temp\RSP62D2.bat"
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP62D3.bat" with contents
+[
+@echo off
+"C:\Program Files (x86)\Microsoft Visual Studio\VC98\Bin\ml.exe" /nologo /I"..\..\inc" /c /Zi /Fo.\..\_Bins\Release\fix\fix_asm.obj fix_asm.asm
+]
+Creating command line "C:\Users\Infernus\AppData\Local\Temp\RSP62D3.bat"
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP62D4.tmp" with contents
+[
+/nologo /Zp1 /MT /W3 /GX /O2 /I "." /I "..\..\h" /I "..\lg" /I "..\actmovie" /I "..\appcore" /I "..\arq" /I "..\compapis" /I "..\comtools" /I "..\config" /I "..\cpptools" /I "..\darkloop" /I "..\dev2d" /I "..\dispdev" /I "..\dstruct" /I "..\dump" /I "..\fix" /I "..\font" /I "..\g2" /I "..\gadget" /I "..\gameshel" /I "..\gfile" /I "..\inputbnd" /I "..\lgalloc" /I "..\lgd3d" /I "..\matrix" /I "..\md" /I "..\mm" /I "..\mp" /I "..\mprintf" /I "..\namedres" /I "..\net" /I "..\prof" /I "..\r3d" /I "..\random" /I "..\recorder" /I "..\ref" /I "..\res" /I "..\rnd" /I "..\script" /I "..\sdesc" /I "..\skel" /I "..\sndsrc" /I "..\sndutil" /I "..\sound" /I "..\star" /I "..\tagfile" /I "..\templgen" /I "..\timer" /I "..\ui" /I "..\vec2" /I "..\..\winsrc\input" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fr"..\_Bins\Release\fix/" /Fo"..\_Bins\Release\fix/" /FI "..\..\h\lg_types.h" /c 
+"D:\Source\DarkEngine\prj\tech\libsrc\fix\atofix.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\fix\f_exp.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\fix\fix.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\fix\fix24.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\fix\fix_pow.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\fix\fixsprnt.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\fix\safefix.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\fix\trigtab.c"
+]
+Creating command line "cl.exe @C:\Users\Infernus\AppData\Local\Temp\RSP62D4.tmp" 
+Performing Custom Build Step on .\fixdiv.asm
+ Assembling: fixdiv.asm
+Performing Custom Build Step on .\fix_asm.asm
+ Assembling: fix_asm.asm
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP6352.tmp" with contents
+[
+/nologo /out:"..\_Libs\Release\fix.lib" 
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\fix\atofix.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\fix\f_exp.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\fix\fix.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\fix\fix24.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\fix\fix_pow.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\fix\fixsprnt.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\fix\safefix.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\fix\trigtab.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\fix\fix_asm.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\fix\fixdiv.obj
+]
+Creating command line "link.exe -lib @C:\Users\Infernus\AppData\Local\Temp\RSP6352.tmp"
+<h3>Output Window</h3>
+Compiling...
+atofix.c
+f_exp.c
+fix.c
+fix24.c
+fix_pow.c
+fixsprnt.c
+safefix.c
+trigtab.c
+Generating Code...
+Creating library...
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\fix\fix_asm.obj : warning LNK4033: converting object format from OMF to COFF
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\fix\fixdiv.obj : warning LNK4033: converting object format from OMF to COFF
+
+
+
+<h3>Results</h3>
+fix.lib - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>

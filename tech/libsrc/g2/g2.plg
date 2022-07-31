@@ -1,0 +1,414 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: g2 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP9AE0.bat" with contents
+[
+@echo off
+"C:\Program Files (x86)\Microsoft Visual Studio\VC98\Bin\ml.exe" /nologo /I"..\..\inc" /I"..\dev2d" /I"..\fix" /c /Zi /Fo.\..\_Bins\Release\g2\uvgrad.obj uvgrad.asm
+]
+Creating command line "C:\Users\Infernus\AppData\Local\Temp\RSP9AE0.bat"
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP9AE1.bat" with contents
+[
+@echo off
+"C:\Program Files (x86)\Microsoft Visual Studio\VC98\Bin\ml.exe" /nologo /I"..\..\inc" /I"..\dev2d" /I"..\fix" /c /Zi /Fo.\..\_Bins\Release\g2\ptpersp.obj ptpersp.asm
+]
+Creating command line "C:\Users\Infernus\AppData\Local\Temp\RSP9AE1.bat"
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP9AE2.bat" with contents
+[
+@echo off
+"C:\Program Files (x86)\Microsoft Visual Studio\VC98\Bin\ml.exe" /nologo /I"..\..\inc" /I"..\dev2d" /I"..\fix" /I "..\lg" /I "..\lgalloc" /c /Zi /Fo.\..\_Bins\Release\g2\ptmapper.obj ptmapper.asm
+]
+Creating command line "C:\Users\Infernus\AppData\Local\Temp\RSP9AE2.bat"
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP9AE3.bat" with contents
+[
+@echo off
+"C:\Program Files (x86)\Microsoft Visual Studio\VC98\Bin\ml.exe" /nologo /I"..\..\inc" /I"..\dev2d" /I"..\fix" /c /Zi /Fo.\..\_Bins\Release\g2\ptmap_n.obj ptmap_n.asm
+]
+Creating command line "C:\Users\Infernus\AppData\Local\Temp\RSP9AE3.bat"
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP9AE4.bat" with contents
+[
+@echo off
+"C:\Program Files (x86)\Microsoft Visual Studio\VC98\Bin\ml.exe" /nologo /I"..\..\inc" /I"..\dev2d" /I"..\fix" /c /Zi /Fo.\..\_Bins\Release\g2\ptmap_8.obj ptmap_8.asm
+]
+Creating command line "C:\Users\Infernus\AppData\Local\Temp\RSP9AE4.bat"
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP9AE5.bat" with contents
+[
+@echo off
+"C:\Program Files (x86)\Microsoft Visual Studio\VC98\Bin\ml.exe" /nologo /I"..\..\inc" /I"..\dev2d" /I"..\fix" /I"..\lg" /I"..\lgalloc" /c /Zi /Fo.\..\_Bins\Release\g2\ptmap.obj ptmap.asm
+]
+Creating command line "C:\Users\Infernus\AppData\Local\Temp\RSP9AE5.bat"
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP9AF5.bat" with contents
+[
+@echo off
+"C:\Program Files (x86)\Microsoft Visual Studio\VC98\Bin\ml.exe" /nologo /I"..\..\inc" /I"..\dev2d" /I"..\fix" /I"..\lg" /I"..\lgalloc" /c /Zi /Fo.\..\_Bins\Release\g2\ptlinear.obj ptlinear.asm
+]
+Creating command line "C:\Users\Infernus\AppData\Local\Temp\RSP9AF5.bat"
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP9AF6.bat" with contents
+[
+@echo off
+"C:\Program Files (x86)\Microsoft Visual Studio\VC98\Bin\ml.exe" /nologo /I"..\..\inc" /I"..\dev2d" /I"..\fix" /I"..\lg" /I"..\lgalloc" /c /Zi /Fo.\..\_Bins\Release\g2\ptfloat.obj ptfloat.asm
+]
+Creating command line "C:\Users\Infernus\AppData\Local\Temp\RSP9AF6.bat"
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP9AF7.bat" with contents
+[
+@echo off
+"C:\Program Files (x86)\Microsoft Visual Studio\VC98\Bin\ml.exe" /nologo /I"..\..\inc" /I"..\dev2d" /I"..\fix" /c /Zi /Fo.\..\_Bins\Release\g2\o88il.obj o88il.asm
+]
+Creating command line "C:\Users\Infernus\AppData\Local\Temp\RSP9AF7.bat"
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP9AF8.bat" with contents
+[
+@echo off
+"C:\Program Files (x86)\Microsoft Visual Studio\VC98\Bin\ml.exe" /nologo /I"..\..\inc" /I"..\dev2d" /I"..\fix" /c /Zi /Fo.\..\_Bins\Release\g2\o88bil.obj o88bil.asm
+]
+Creating command line "C:\Users\Infernus\AppData\Local\Temp\RSP9AF8.bat"
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP9AF9.bat" with contents
+[
+@echo off
+"C:\Program Files (x86)\Microsoft Visual Studio\VC98\Bin\ml.exe" /nologo /I"..\..\inc" /I"..\dev2d" /I"..\fix" /c /Zi /Fo.\..\_Bins\Release\g2\o2w88i.obj o2w88i.asm
+]
+Creating command line "C:\Users\Infernus\AppData\Local\Temp\RSP9AF9.bat"
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP9AFA.bat" with contents
+[
+@echo off
+"C:\Program Files (x86)\Microsoft Visual Studio\VC98\Bin\ml.exe" /nologo /I"..\..\inc" /I"..\dev2d" /I"..\fix" /c /Zi /Fo.\..\_Bins\Release\g2\n88il.obj n88il.asm
+]
+Creating command line "C:\Users\Infernus\AppData\Local\Temp\RSP9AFA.bat"
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP9AFB.bat" with contents
+[
+@echo off
+"C:\Program Files (x86)\Microsoft Visual Studio\VC98\Bin\ml.exe" /nologo /I"..\..\inc" /I"..\dev2d" /I"..\fix" /c /Zi /Fo.\..\_Bins\Release\g2\lo88il.obj lo88il.asm
+]
+Creating command line "C:\Users\Infernus\AppData\Local\Temp\RSP9AFB.bat"
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP9AFC.bat" with contents
+[
+@echo off
+"C:\Program Files (x86)\Microsoft Visual Studio\VC98\Bin\ml.exe" /nologo /I"..\..\inc" /I"..\dev2d" /I"..\fix" /c /Zi /Fo.\..\_Bins\Release\g2\lo816il.obj lo816il.asm
+]
+Creating command line "C:\Users\Infernus\AppData\Local\Temp\RSP9AFC.bat"
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP9AFD.bat" with contents
+[
+@echo off
+"C:\Program Files (x86)\Microsoft Visual Studio\VC98\Bin\ml.exe" /nologo /I"..\..\inc" /I"..\dev2d" /I"..\fix" /c /Zi /Fo.\..\_Bins\Release\g2\co88il.obj co88il.asm
+]
+Creating command line "C:\Users\Infernus\AppData\Local\Temp\RSP9AFD.bat"
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP9AFE.bat" with contents
+[
+@echo off
+"C:\Program Files (x86)\Microsoft Visual Studio\VC98\Bin\ml.exe" /nologo /I"..\..\inc" /I"..\dev2d" /I"..\fix" /c /Zi /Fo.\..\_Bins\Release\g2\chkedges.obj chkedges.asm
+]
+Creating command line "C:\Users\Infernus\AppData\Local\Temp\RSP9AFE.bat"
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP9B0F.bat" with contents
+[
+@echo off
+"C:\Program Files (x86)\Microsoft Visual Studio\VC98\Bin\ml.exe" /nologo /I"..\..\inc" /I"..\dev2d" /I"..\fix" /c /Zi /Fo.\..\_Bins\Release\g2\chkedgeb.obj chkedgeb.asm
+]
+Creating command line "C:\Users\Infernus\AppData\Local\Temp\RSP9B0F.bat"
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP9B10.tmp" with contents
+[
+/nologo /Zp1 /MT /W3 /GX /O2 /I "." /I "..\..\h" /I "..\lg" /I "..\actmovie" /I "..\appcore" /I "..\arq" /I "..\compapis" /I "..\comtools" /I "..\config" /I "..\cpptools" /I "..\darkloop" /I "..\dev2d" /I "..\dispdev" /I "..\dstruct" /I "..\dump" /I "..\fix" /I "..\font" /I "..\g2" /I "..\gadget" /I "..\gameshel" /I "..\gfile" /I "..\inputbnd" /I "..\lgalloc" /I "..\lgd3d" /I "..\matrix" /I "..\md" /I "..\mm" /I "..\mp" /I "..\mprintf" /I "..\namedres" /I "..\net" /I "..\prof" /I "..\r3d" /I "..\random" /I "..\recorder" /I "..\ref" /I "..\res" /I "..\rnd" /I "..\script" /I "..\sdesc" /I "..\skel" /I "..\sndsrc" /I "..\sndutil" /I "..\sound" /I "..\star" /I "..\tagfile" /I "..\templgen" /I "..\timer" /I "..\ui" /I "..\vec2" /I "..\..\winsrc\input" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fr"..\_Bins\Release\g2/" /Fo"..\_Bins\Release\g2/" /FI "..\..\h\lg_types.h" /c 
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\area.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\blend.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\cc816.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\chkply.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\clip.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\clplin.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\co88.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\cominit.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\dlh816.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\drytmap.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\f16lm.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\f16pm.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\fl8fl8s.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\fl8l.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\fl8lin.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\fl8lm.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\fl8pm.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\fl8s.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\fl8sply.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\g2circ.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\g2el.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\g2makewr.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\g2ov.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\gen16il.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\gen8il.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\genf16l.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\genf16s.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\genfl8l.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\genfl8s.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\genline.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\genlm.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\genply.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\genrast.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\genrsds.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\genrsdtm.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\gens.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\gensply.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\golftmap.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\grtm.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\grwater.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\init.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\lh816.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\lht816.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\lo816.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\lo88.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\o88.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\permap.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\point.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\pt_duv.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\pt_grad.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\pt_main.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\pt_map.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\r88.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\rastel.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\raster.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\scshell.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\setdrv.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\shadhack.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\shadtmap.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\svgainit.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\t816oc.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\t88oc.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\tf.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\tmapd.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\tmsetup.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\trifan.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\trigrad.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\g2\trirast.c"
+]
+Creating command line "cl.exe @C:\Users\Infernus\AppData\Local\Temp\RSP9B10.tmp" 
+Performing Custom Build Step on .\uvgrad.asm
+ Assembling: uvgrad.asm
+Performing Custom Build Step on .\ptpersp.asm
+ Assembling: ptpersp.asm
+Performing Custom Build Step on .\ptmapper.asm
+ Assembling: ptmapper.asm
+Performing Custom Build Step on .\ptmap_n.asm
+ Assembling: ptmap_n.asm
+Performing Custom Build Step on .\ptmap_8.asm
+ Assembling: ptmap_8.asm
+Performing Custom Build Step on .\ptmap.asm
+ Assembling: ptmap.asm
+Performing Custom Build Step on .\ptlinear.asm
+ Assembling: ptlinear.asm
+Performing Custom Build Step on .\ptfloat.asm
+ Assembling: ptfloat.asm
+Performing Custom Build Step on .\o88il.asm
+ Assembling: o88il.asm
+Performing Custom Build Step on .\o88bil.asm
+ Assembling: o88bil.asm
+Performing Custom Build Step on .\o2w88i.asm
+ Assembling: o2w88i.asm
+Performing Custom Build Step on .\n88il.asm
+ Assembling: n88il.asm
+Performing Custom Build Step on .\lo88il.asm
+ Assembling: lo88il.asm
+Performing Custom Build Step on .\lo816il.asm
+ Assembling: lo816il.asm
+Performing Custom Build Step on .\co88il.asm
+ Assembling: co88il.asm
+Performing Custom Build Step on .\chkedges.asm
+ Assembling: chkedges.asm
+Performing Custom Build Step on .\chkedgeb.asm
+ Assembling: chkedgeb.asm
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP9F28.tmp" with contents
+[
+/nologo /out:"..\_Libs\Release\g2.lib" 
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\area.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\blend.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\cc816.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\chkply.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\clip.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\clplin.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\co88.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\cominit.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\dlh816.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\drytmap.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\f16lm.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\f16pm.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\fl8fl8s.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\fl8l.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\fl8lin.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\fl8lm.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\fl8pm.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\fl8s.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\fl8sply.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\g2circ.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\g2el.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\g2makewr.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\g2ov.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\gen16il.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\gen8il.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\genf16l.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\genf16s.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\genfl8l.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\genfl8s.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\genline.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\genlm.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\genply.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\genrast.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\genrsds.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\genrsdtm.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\gens.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\gensply.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\golftmap.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\grtm.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\grwater.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\init.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\lh816.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\lht816.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\lo816.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\lo88.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\o88.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\permap.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\point.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\pt_duv.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\pt_grad.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\pt_main.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\pt_map.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\r88.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\rastel.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\raster.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\scshell.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\setdrv.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\shadhack.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\shadtmap.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\svgainit.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\t816oc.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\t88oc.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\tf.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\tmapd.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\tmsetup.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\trifan.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\trigrad.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\trirast.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\chkedgeb.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\chkedges.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\co88il.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\lo816il.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\lo88il.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\n88il.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\o2w88i.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\o88bil.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\o88il.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\ptfloat.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\ptlinear.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\ptmap.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\ptmap_8.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\ptmap_n.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\ptmapper.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\ptpersp.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\g2\uvgrad.obj
+]
+Creating command line "link.exe -lib @C:\Users\Infernus\AppData\Local\Temp\RSP9F28.tmp"
+<h3>Output Window</h3>
+Compiling...
+area.c
+blend.c
+cc816.c
+chkply.c
+clip.c
+D:\Source\DarkEngine\prj\tech\libsrc\g2\clip.c(8) : warning C4005: 'CLIP_MASK' : macro redefinition
+        C:\Platform SDK for Windows Server 2003 R2\Include\wingdi.h(1259) : see previous definition of 'CLIP_MASK'
+clplin.c
+co88.c
+cominit.c
+dlh816.c
+drytmap.c
+f16lm.c
+f16pm.c
+fl8fl8s.c
+fl8l.c
+fl8lin.c
+fl8lm.c
+fl8pm.c
+fl8s.c
+fl8sply.c
+g2circ.c
+Generating Code...
+Compiling...
+g2el.c
+g2makewr.c
+g2ov.c
+gen16il.c
+gen8il.c
+genf16l.c
+genf16s.c
+D:\Source\DarkEngine\prj\tech\libsrc\g2\genf16s.c(13) : error C2039: 'bm' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+D:\Source\DarkEngine\prj\tech\libsrc\g2\genf16s.c(14) : error C2039: 'il_func' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+D:\Source\DarkEngine\prj\tech\libsrc\g2\genf16s.c(15) : error C2039: 'pix_func' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+D:\Source\DarkEngine\prj\tech\libsrc\g2\genf16s.c(16) : error C2039: 'y' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+D:\Source\DarkEngine\prj\tech\libsrc\g2\genf16s.c(25) : error C2039: 'bm' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+D:\Source\DarkEngine\prj\tech\libsrc\g2\genf16s.c(26) : error C2039: 'il_func' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+D:\Source\DarkEngine\prj\tech\libsrc\g2\genf16s.c(27) : error C2039: 'pix_func' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+D:\Source\DarkEngine\prj\tech\libsrc\g2\genf16s.c(29) : error C2039: 'y' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+D:\Source\DarkEngine\prj\tech\libsrc\g2\genf16s.c(31) : error C2039: 'y' : is not a member of 'g2s_tmap_info'
+        .\tmaps.h(9) : see declaration of 'g2s_tmap_info'
+genfl8l.c
+genfl8s.c
+genline.c
+D:\Source\DarkEngine\prj\tech\libsrc\g2\genline.c(116) : warning C4550: expression evaluates to a function which is missing an argument list
+genlm.c
+genply.c
+genrast.c
+genrsds.c
+genrsdtm.c
+gens.c
+gensply.c
+golftmap.c
+grtm.c
+grwater.c
+Generating Code...
+Compiling...
+init.c
+lh816.c
+lht816.c
+lo816.c
+lo88.c
+o88.c
+permap.c
+point.c
+pt_duv.c
+pt_grad.c
+pt_main.c
+pt_map.c
+r88.c
+rastel.c
+raster.c
+scshell.c
+setdrv.c
+shadhack.c
+shadtmap.c
+svgainit.c
+Generating Code...
+Compiling...
+t816oc.c
+t88oc.c
+tf.c
+tmapd.c
+tmsetup.c
+trifan.c
+trigrad.c
+trirast.c
+Generating Code...
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+g2.lib - 9 error(s), 2 warning(s)
+</pre>
+</body>
+</html>

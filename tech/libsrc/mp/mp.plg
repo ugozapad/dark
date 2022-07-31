@@ -1,0 +1,45 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: mp - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP5D21.tmp" with contents
+[
+/nologo /Zp1 /MT /W3 /GX /O2 /I "." /I "..\..\h" /I "..\lg" /I "..\actmovie" /I "..\appcore" /I "..\arq" /I "..\compapis" /I "..\comtools" /I "..\config" /I "..\cpptools" /I "..\darkloop" /I "..\dev2d" /I "..\dispdev" /I "..\dstruct" /I "..\dump" /I "..\fix" /I "..\font" /I "..\g2" /I "..\gadget" /I "..\gameshel" /I "..\gfile" /I "..\inputbnd" /I "..\lgalloc" /I "..\lgd3d" /I "..\matrix" /I "..\md" /I "..\mm" /I "..\mp" /I "..\mprintf" /I "..\namedres" /I "..\net" /I "..\prof" /I "..\r3d" /I "..\random" /I "..\recorder" /I "..\ref" /I "..\res" /I "..\rnd" /I "..\script" /I "..\sdesc" /I "..\skel" /I "..\sndsrc" /I "..\sndutil" /I "..\sound" /I "..\star" /I "..\tagfile" /I "..\templgen" /I "..\timer" /I "..\ui" /I "..\vec2" /I "..\..\winsrc\input" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fr"..\_Bins\Release\mp/" /Fo"..\_Bins\Release\mp/" /FI "..\..\h\lg_types.h" /c 
+"D:\Source\DarkEngine\prj\tech\libsrc\mp\abmp.c"
+]
+Creating command line "cl.exe @C:\Users\Infernus\AppData\Local\Temp\RSP5D21.tmp" 
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP5D22.tmp" with contents
+[
+/nologo /out:"..\_Libs\Release\mp.lib" 
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\mp\abmp.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\mp\mpinit.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\mp\mplist.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\mp\mploco.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\mp\mpmot.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\mp\mpstack.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\mp\mpupdate.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\mp\mpvm.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\mp\multiped.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\mp\qt.obj
+]
+Creating command line "link.exe -lib @C:\Users\Infernus\AppData\Local\Temp\RSP5D22.tmp"
+<h3>Output Window</h3>
+Compiling...
+abmp.c
+D:\Source\DarkEngine\prj\tech\libsrc\mp\abmp.c(82) : warning C4013: 'abp_compute_arm_normal' undefined; assuming extern returning int
+D:\Source\DarkEngine\prj\tech\libsrc\mp\abmp.c(87) : warning C4013: 'abp_compute_leg_normal' undefined; assuming extern returning int
+D:\Source\DarkEngine\prj\tech\libsrc\mp\abmp.c(97) : error C2371: 'abp_compute_arm_normal' : redefinition; different basic types
+D:\Source\DarkEngine\prj\tech\libsrc\mp\abmp.c(160) : error C2371: 'abp_compute_leg_normal' : redefinition; different basic types
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+mp.lib - 2 error(s), 2 warning(s)
+</pre>
+</body>
+</html>

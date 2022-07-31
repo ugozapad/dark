@@ -1,0 +1,137 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: lg - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP3FA1.bat" with contents
+[
+@echo off
+"C:\Program Files (x86)\Microsoft Visual Studio\VC98\Bin\ml.exe" /nologo /c /Zi /Fo.\..\_Bins\Release\lg\oheapwal.obj oheapwal.asm
+]
+Creating command line "C:\Users\Infernus\AppData\Local\Temp\RSP3FA1.bat"
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP3FA2.tmp" with contents
+[
+/nologo /Zp1 /MT /W3 /GX /O2 /I "." /I "..\..\h" /I "..\lg" /I "..\actmovie" /I "..\appcore" /I "..\arq" /I "..\compapis" /I "..\comtools" /I "..\config" /I "..\cpptools" /I "..\darkloop" /I "..\dev2d" /I "..\dispdev" /I "..\dstruct" /I "..\dump" /I "..\fix" /I "..\font" /I "..\g2" /I "..\gadget" /I "..\gameshel" /I "..\gfile" /I "..\inputbnd" /I "..\lgalloc" /I "..\lgd3d" /I "..\matrix" /I "..\md" /I "..\mm" /I "..\mp" /I "..\mprintf" /I "..\namedres" /I "..\net" /I "..\prof" /I "..\r3d" /I "..\random" /I "..\recorder" /I "..\ref" /I "..\res" /I "..\rnd" /I "..\script" /I "..\sdesc" /I "..\skel" /I "..\sndsrc" /I "..\sndutil" /I "..\sound" /I "..\star" /I "..\tagfile" /I "..\templgen" /I "..\timer" /I "..\ui" /I "..\vec2" /I "..\..\winsrc\input" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fr"..\_Bins\Release\lg/" /Fo"..\_Bins\Release\lg/" /FI "..\..\h\lg_types.h" /c 
+"D:\Source\DarkEngine\prj\tech\libsrc\lg\appagg.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\lg\breakkey.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\lg\bugtrak.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\lg\codewrit.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\lg\coremutx.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\lg\crc32.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\lg\datapath.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\lg\dbg.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\lg\dbgcfg.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\lg\dpathdir.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\lg\exit.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\lg\findfile.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\lg\hashfns.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\lg\lgassert.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\lg\lglog.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\lg\lgprntf.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\lg\lgsprntf.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\lg\memgrow.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\lg\memreq.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\lg\memstat.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\lg\stack.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\lg\stktrace.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\lg\thrdtool.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\lg\timings.cpp"
+"D:\Source\DarkEngine\prj\tech\libsrc\lg\tmpalloc.c"
+]
+Creating command line "cl.exe @C:\Users\Infernus\AppData\Local\Temp\RSP3FA2.tmp" 
+Performing Custom Build Step on .\oheapwal.asm
+ Assembling: oheapwal.asm
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP404E.tmp" with contents
+[
+/nologo /out:"..\_Libs\Release\lg.lib" 
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\lg\appagg.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\lg\breakkey.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\lg\bugtrak.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\lg\codewrit.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\lg\coremutx.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\lg\crc32.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\lg\datapath.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\lg\dbg.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\lg\dbgcfg.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\lg\dpathdir.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\lg\exit.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\lg\findfile.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\lg\hashfns.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\lg\lgassert.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\lg\lglog.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\lg\lgprntf.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\lg\lgsprntf.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\lg\memgrow.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\lg\memreq.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\lg\memstat.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\lg\stack.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\lg\stktrace.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\lg\thrdtool.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\lg\timings.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\lg\tmpalloc.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\lg\oheapwal.obj
+]
+Creating command line "link.exe -lib @C:\Users\Infernus\AppData\Local\Temp\RSP404E.tmp"
+<h3>Output Window</h3>
+Compiling...
+appagg.cpp
+breakkey.cpp
+Generating Code...
+Compiling...
+bugtrak.c
+Generating Code...
+Compiling...
+codewrit.cpp
+coremutx.cpp
+D:\Source\DarkEngine\prj\tech\libsrc\lg\coremutx.cpp(15) : warning C4074: initializers put in compiler reserved initialization area
+crc32.cpp
+datapath.cpp
+D:\Source\DarkEngine\prj\tech\libsrc\lg\datapath.cpp(86) : warning C4005: 'min' : macro redefinition
+        C:\Platform SDK for Windows Server 2003 R2\Include\windef.h(193) : see previous definition of 'min'
+Generating Code...
+Compiling...
+dbg.c
+dbgcfg.c
+dpathdir.c
+exit.c
+Generating Code...
+Compiling...
+findfile.cpp
+hashfns.cpp
+lgassert.cpp
+read the comment dated 02-24-98!
+lglog.cpp
+Generating Code...
+Compiling...
+lgprntf.c
+lgsprntf.c
+memgrow.c
+Generating Code...
+Compiling...
+memreq.cpp
+Generating Code...
+Compiling...
+memstat.c
+stack.c
+Generating Code...
+Compiling...
+stktrace.cpp
+thrdtool.cpp
+timings.cpp
+Generating Code...
+Compiling...
+tmpalloc.c
+Generating Code...
+Creating library...
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\lg\oheapwal.obj : warning LNK4033: converting object format from OMF to COFF
+
+
+
+<h3>Results</h3>
+lg.lib - 0 error(s), 3 warning(s)
+</pre>
+</body>
+</html>

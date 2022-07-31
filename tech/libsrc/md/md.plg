@@ -1,0 +1,64 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: md - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP584C.tmp" with contents
+[
+/nologo /Zp1 /MT /W3 /GX /O2 /I "." /I "..\..\h" /I "..\lg" /I "..\actmovie" /I "..\appcore" /I "..\arq" /I "..\compapis" /I "..\comtools" /I "..\config" /I "..\cpptools" /I "..\darkloop" /I "..\dev2d" /I "..\dispdev" /I "..\dstruct" /I "..\dump" /I "..\fix" /I "..\font" /I "..\g2" /I "..\gadget" /I "..\gameshel" /I "..\gfile" /I "..\inputbnd" /I "..\lgalloc" /I "..\lgd3d" /I "..\matrix" /I "..\md" /I "..\mm" /I "..\mp" /I "..\mprintf" /I "..\namedres" /I "..\net" /I "..\prof" /I "..\r3d" /I "..\random" /I "..\recorder" /I "..\ref" /I "..\res" /I "..\rnd" /I "..\script" /I "..\sdesc" /I "..\skel" /I "..\sndsrc" /I "..\sndutil" /I "..\sound" /I "..\star" /I "..\tagfile" /I "..\templgen" /I "..\timer" /I "..\ui" /I "..\vec2" /I "..\..\winsrc\input" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fr"..\_Bins\Release\md/" /Fo"..\_Bins\Release\md/" /FI "..\..\h\lg_types.h" /c 
+"D:\Source\DarkEngine\prj\tech\libsrc\md\debug.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\md\fancy.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\md\hitdet.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\md\light.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\md\mipmap.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\md\render.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\md\scale.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\md\shear.c"
+"D:\Source\DarkEngine\prj\tech\libsrc\md\utils.c"
+]
+Creating command line "cl.exe @C:\Users\Infernus\AppData\Local\Temp\RSP584C.tmp" 
+Creating temporary file "C:\Users\Infernus\AppData\Local\Temp\RSP584D.tmp" with contents
+[
+/nologo /out:"..\_Libs\Release\md.lib" 
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\md\debug.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\md\fancy.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\md\hitdet.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\md\light.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\md\mipmap.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\md\render.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\md\scale.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\md\shear.obj
+\Source\DarkEngine\prj\tech\libsrc\_Bins\Release\md\utils.obj
+]
+Creating command line "link.exe -lib @C:\Users\Infernus\AppData\Local\Temp\RSP584D.tmp"
+<h3>Output Window</h3>
+Compiling...
+debug.c
+fancy.c
+hitdet.c
+light.c
+mipmap.c
+D:\Source\DarkEngine\prj\tech\libsrc\md\mipmap.c(198) : warning C4028: formal parameter 2 different from declaration
+D:\Source\DarkEngine\prj\tech\libsrc\md\mipmap.c(198) : warning C4028: formal parameter 6 different from declaration
+D:\Source\DarkEngine\prj\tech\libsrc\md\mipmap.c(198) : warning C4029: declared formal parameter list different from definition
+render.c
+scale.c
+D:\Source\DarkEngine\prj\tech\libsrc\md\scale.c(19) : warning C4005: 'max' : macro redefinition
+        C:\Platform SDK for Windows Server 2003 R2\Include\windef.h(189) : see previous definition of 'max'
+shear.c
+D:\Source\DarkEngine\prj\tech\libsrc\md\shear.c(11) : warning C4005: 'max' : macro redefinition
+        C:\Platform SDK for Windows Server 2003 R2\Include\windef.h(189) : see previous definition of 'max'
+utils.c
+Generating Code...
+Creating library...
+
+
+
+<h3>Results</h3>
+md.lib - 0 error(s), 5 warning(s)
+</pre>
+</body>
+</html>

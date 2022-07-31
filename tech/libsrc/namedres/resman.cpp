@@ -1,0 +1,3 @@
+//Empty File
+//resman.cpp
+
