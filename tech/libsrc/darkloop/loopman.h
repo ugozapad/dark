@@ -78,122 +78,124 @@ public:
 			m_pLoopManager = pLoopManager;
 		}
 
+		DECLARE_SIMPLE_AGGREGATION(cLoop);
+
 		//
 		// Run the loop
 		//
-		STDMETHOD_(int, Go)(THIS_ sLoopInstantiator* loop)
+		STDMETHODIMP_(int) Go(THIS_ sLoopInstantiator* loop)
 		{
-
+			return 0;
 		}
 
 		//
 		// Unwind stack and exit loop at end of current loop iteration
 		//
-		STDMETHOD (EndAllModes)(THIS_ int goRetVal)
+		STDMETHODIMP EndAllModes(THIS_ int goRetVal)
 		{
-		
+			return 0;
 		}
 		
 		//
 		// Clean up all outstanding loops and prepare to shut down the app.
 		// Only intended to be used for cleaning up state right before calling exit();
 		//
-		STDMETHOD(Terminate)(THIS)
+		STDMETHODIMP Terminate(THIS)
 		{
-		
+			return 0;
 		}
 		
 		//
 		// Query for current frame info. Values undefined if not actually looping
 		//
-		STDMETHOD_(const sLoopFrameInfo *, GetFrameInfo)(THIS)
+		STDMETHODIMP_(const sLoopFrameInfo *) GetFrameInfo(THIS)
 		{
-		
+			return 0;
 		}
 		
 		//
 		// Change mode at end of current loop iteration
 		//
-		STDMETHOD (ChangeMode)(THIS_ eLoopModeChangeKind, sLoopInstantiator* loop)
+		STDMETHODIMP ChangeMode(THIS_ eLoopModeChangeKind, sLoopInstantiator* loop)
 		{
-		
+			return 0;
 		}
 		
 		//
 		// End current mode at end of current loop iteration,
 		// exit loop if current mode is bottom of stack
 		//
-		STDMETHOD (EndMode)(THIS_ int goRetVal)
+		STDMETHODIMP EndMode(THIS_ int goRetVal)
 		{
-		
+			return 0;
 		}
 		
 		//
 		// Get the currently running mode
 		//
-		STDMETHOD_(ILoopMode *, GetCurrentMode)(THIS)
+		STDMETHODIMP_(ILoopMode *) GetCurrentMode(THIS)
 		{
-		
+			return 0;
 		}
 		
 		//
 		// Get the current mode's dispatcher
 		//
-		STDMETHOD_(ILoopDispatch*, GetCurrentDispatch)(THIS)
+		STDMETHODIMP_(ILoopDispatch*) GetCurrentDispatch(THIS)
 		{
-		
+			return 0;
 		}
 		
 		//
 		// Pause/unpause the game
 		//
-		STDMETHOD_(void, Pause)(THIS_ BOOL)
+		STDMETHODIMP_(void) Pause(THIS_ BOOL)
 		{
 		
 		}
 		
-		STDMETHOD_(BOOL, IsPaused)(THIS)
+		STDMETHODIMP_(BOOL) IsPaused(THIS)
 		{
-		return false;
+			return false;
 		}
 		
 		//
 		// Change the minor mode
 		//
-		STDMETHOD (ChangeMinorMode)(THIS_ int minorMode)
+		STDMETHODIMP ChangeMinorMode(THIS_ int minorMode)
 		{
-		
+			return 0;
 		}
 		
-		STDMETHOD_(int, GetMinorMode)(THIS)
+		STDMETHODIMP_(int) GetMinorMode(THIS)
 		{
-		return 0;
+			return 0;
 		}
 		
 		//
 		// Convenience functions to dispatch messsages to current loop mode dispatcher
 		//
-		STDMETHOD (SendMessage)(THIS_ eLoopMessage, tLoopMessageData hData, int flags)
+		STDMETHODIMP SendMessage(THIS_ eLoopMessage, tLoopMessageData hData, int flags)
 		{
 			return 0;
 		}
 		
-		STDMETHOD (SendSimpleMessage)(THIS_ eLoopMessage)
+		STDMETHODIMP SendSimpleMessage(THIS_ eLoopMessage)
 		{
 			return 0;
 		}
 		
-		STDMETHOD (PostMessage)(THIS_ eLoopMessage, tLoopMessageData hData, int flags)
+		STDMETHODIMP PostMessage(THIS_ eLoopMessage, tLoopMessageData hData, int flags)
 		{
 			return 0;
 		}
 		
-		STDMETHOD (PostSimpleMessage)(THIS_ eLoopMessage)
+		STDMETHODIMP PostSimpleMessage(THIS_ eLoopMessage)
 		{
 			return 0;
 		}
 		
-		STDMETHOD (ProcessQueue)(THIS)
+		STDMETHODIMP ProcessQueue(THIS)
 		{
 			return 0;
 		}
@@ -202,22 +204,22 @@ public:
 		//
 		// Debugging features
 		//
-		STDMETHOD_(void, SetDiagnostics)(THIS_ unsigned fDiagnostics, tLoopMessageSet messages)
+		STDMETHODIMP_(void) SetDiagnostics(THIS_ unsigned fDiagnostics, tLoopMessageSet messages)
 		{
 		}
 		
-		STDMETHOD_(void, GetDiagnostics)(THIS_ unsigned * pfDiagnostics, tLoopMessageSet * pMessages)
+		STDMETHODIMP_(void) GetDiagnostics(THIS_ unsigned * pfDiagnostics, tLoopMessageSet * pMessages)
 		{
 		
 		}
 		
 		// Set messages and optional client to use the profileable dispatcher
-		STDMETHOD_(void, SetProfile)(THIS_ tLoopMessageSet messages, tLoopClientID *)
+		STDMETHODIMP_(void) SetProfile(THIS_ tLoopMessageSet messages, tLoopClientID *)
 		{
 		
 		}
 		
-		STDMETHOD_(void, GetProfile)(THIS_ tLoopMessageSet * pMessages, tLoopClientID **)
+		STDMETHODIMP_(void) GetProfile(THIS_ tLoopMessageSet * pMessages, tLoopClientID **)
 		{
 		
 		}
@@ -229,6 +231,7 @@ public:
 
 private:
 	cLoopClientFactory m_LoopClientFactory;
+	cLoop m_Loop;
 };
 
 

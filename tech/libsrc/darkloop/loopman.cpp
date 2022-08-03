@@ -6,13 +6,16 @@ cLoopManager::cLoop* cLoopManager::cLoop::gm_pLoop = NULL;
 IMPLEMENT_COMPLEX_AGGREGATE_CONTROL_DELETE_CLIENT(cLoopManager);
 
 cLoopManager::cLoopManager(IUnknown *pOuterUnknown, unsigned int nMaxModes) :
-	m_LoopClientFactory(pOuterUnknown)
+	m_LoopClientFactory(pOuterUnknown),
+	m_Loop(pOuterUnknown, this)
 {
+	cLoop::gm_pLoop = &m_Loop;
+
 	INIT_AGGREGATION_2( pOuterUnknown,
 						IID_ILoopManager,
 						this,
 						IID_ILoop,
-						cLoop::gm_pLoop,
+						&m_Loop,
 						kPriorityLibrary,
 						NULL );
 
