@@ -3,6 +3,7 @@
 #include <windows.h>
 #include <ddraw.h>
 
+#include <lg_types.h>
 #include <lgassert.h>
 #include <dev2d.h>
 

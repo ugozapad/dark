@@ -5,6 +5,7 @@
 //
 
 #include <stdio.h>
+#include <lg_types.h>
 #include <timings.h>
 
 

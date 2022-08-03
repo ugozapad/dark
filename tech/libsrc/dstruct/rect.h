@@ -47,6 +47,8 @@
 #ifndef RECT_H
 #define RECT_H
 
+#include <lg_types.h>
+
 #ifdef __cplusplus
 extern "C"  {
 #endif

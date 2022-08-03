@@ -17,6 +17,7 @@
 #include <lg_amvideo.h>
 #include <dev2d.h>
 #include <thrdtool.h>
+#include <aggmemb.h>
 
 F_DECLARE_INTERFACE(IGraphBuilder);
 F_DECLARE_INTERFACE(IMediaEvent);

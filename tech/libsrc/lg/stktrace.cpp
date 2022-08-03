@@ -148,7 +148,9 @@ static int __stdcall DoFillStackArray(int Skip, int MaxFrames, void **p)
             }
         }
 
-    for (int i = 0; i < MaxFrames; i++)
+	int i = 0;
+
+    for (i = 0; i < MaxFrames; i++)
         p[i] = 0;
 
     for (i = 0; i < MaxFrames; i++)

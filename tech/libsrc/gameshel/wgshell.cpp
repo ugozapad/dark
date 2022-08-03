@@ -422,12 +422,12 @@ HRESULT cWinGameShell::Init()
 
     // Hook up for PreTranslateMessage()
     AutoConIPtr(Aggregate, this);
-    if (pAggregate)
+	if (pAggregate.GetRealPtr())
         pAggregate->BeginSelfReference();
 
     m_pWinApp->Advise(&m_WinAppAdviseSink, &m_WinAppAdviseCookie);
 
-    if (pAggregate)
+	if (pAggregate.GetRealPtr())
         pAggregate->EndSelfReference();
 
     CreateGameWindow();
@@ -469,12 +469,12 @@ HRESULT cWinGameShell::End()
     m_flags &= ~kAllowPump;
 
     AutoConIPtr(Aggregate, this);
-    if (pAggregate)
+	if (pAggregate.GetRealPtr())
         pAggregate->BeginSelfReference();
 
     m_pWinApp->Unadvise(m_WinAppAdviseCookie);
 
-    if (pAggregate)
+	if (pAggregate.GetRealPtr())
         pAggregate->EndSelfReference();
 
     return NOERROR;

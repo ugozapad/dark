@@ -2,6 +2,7 @@
 // Aligned string copy routines.
 
 #include "lg_astring.h"
+#include "lg_types.h"
 void memcpya(void *d, void *s, int n, void *a)
 {
    memcpya_(d, s, n, a);

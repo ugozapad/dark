@@ -11,6 +11,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <malloc.h>
+#include <lg_types.h>
 
 char heapLockCount = 0;								// heap locked if > 0
 

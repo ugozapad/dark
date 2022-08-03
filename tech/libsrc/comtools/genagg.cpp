@@ -35,7 +35,7 @@ IAggregate * LGAPI CreateGenericAggregate(const char * pszName, int fCreateFlags
 void LGAPI _AddToAggregate(IUnknown * pUnknown, const sAggAddInfo * pAddInfo, unsigned int nAdd)
    {
    AutoConIPtr(Aggregate, pUnknown);
-   AssertMsg(pAggregate, "Expected but did not find support for IAggregate");
+   //AssertMsg(pAggregate, "Expected but did not find support for IAggregate");
 
    if (!pAggregate)
       return;

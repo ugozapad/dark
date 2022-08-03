@@ -3,7 +3,7 @@
 #ifndef __MOUT_H
 #define __MOUT_H
 
-#include <iostream.h>
+#include <iostream>
 #ifdef __WATCOMC__
 #include <streambu.h>
 #endif
@@ -12,6 +12,8 @@ extern "C"
 {
 #include "mprintf.h"
 }
+
+using namespace std;
 
 class mstreambuf : public streambuf
 {
