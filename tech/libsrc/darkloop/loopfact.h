@@ -3,11 +3,39 @@
 
 #include <loopapi.h>
 #include <aggmemb.h>
+#include <hashpp.h>
+#include <hashset.h>
+#include <looptype.h>
+#include <dynarray.h>
+
+class cLoopClientDescTable : public cGuidHashSet<sLoopClientDesc*>
+{
+public:
+	void DestroyAll()
+	{
+		if ( m_nItems )
+		{
+			for ( int i = 0; i < m_nPts; ++i )
+			{
+				for ( sHashSetChunk *pChunk = m_Table[i]; pChunk; pChunk = pChunk->pNext )
+				{
+					delete pChunk;
+					pChunk = NULL;
+				}
+			}
+		}
+	}
+
+	tHashSetKey GetKey(tHashSetNode p) const
+	{
+		return (tHashSetKey__ *)p->unused;
+	}
+};
 
 class cLoopClientFactory : public cCTUnaggregated<ILoopClientFactory, &IID_ILoopClientFactory, kCTU_Default>
 {
 public:
-	cLoopClientFactory( IUnknown * pOuterUnknown );
+	cLoopClientFactory();
 	~cLoopClientFactory();
 
 	DECLARE_SIMPLE_AGGREGATION(cLoopClientFactory);
@@ -28,9 +56,18 @@ public:
    	//
 	STDMETHOD (GetClient)(THIS_ tLoopClientID *, tLoopClientData, ILoopClient **);
 
-	STDMETHOD_(int, AddClient)( sLoopClientDesc *pClientDesc );
+	// Inner Factory stuff
+	STDMETHOD (AddInnerFactory)( ILoopClientFactory *pFactory );
+	STDMETHOD (RemoveInnerFactory)( ILoopClientFactory *pFactory );
 
-	int ReleaseAll();
+	void ReleaseAll();
+
+	STDMETHOD_(int, AddClient)( sLoopClientDesc *pClientDesc );
+	STDMETHOD_(int, AddClients)( sLoopClientDesc **ppClientDesc );
+
+private:
+	cLoopClientDescTable m_ClientDescs;
+	cDynArray<ILoopClientFactory*> m_InnerFactories;
 }; 
 
 
