@@ -305,7 +305,9 @@ index_t cDynArrayBase::LSearch(tDynArrayKey *pKey, tSearchFunc SearchFunc) const
     #else
     pNewItem = m_pItems;
 
-    for (index_t Remaining = m_nItems; Remaining; Remaining--)
+	index_t Remaining = 0;
+
+    for (Remaining = m_nItems; Remaining; Remaining--)
     {
         if (SearchFunc(pKey, (tDynArrayItem *)pNewItem)==0)
             break;

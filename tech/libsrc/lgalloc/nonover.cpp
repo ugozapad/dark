@@ -6,6 +6,7 @@
 //
 // Default, non override versions of functions
 
+#include <allocapi.h>
 #include <malloc.h>
 #include <mallocdb.h>
 

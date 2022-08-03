@@ -203,8 +203,8 @@ char* nextident = identbuffer;
 #endif
 
 /* stdin and stdout may not neccessarily be constants */
-YY_DECL	FILE   *yyin = stdin;
-YY_DECL	FILE   *yyout = stdout;
+YY_DECL	FILE   *yyin = 0;//stdin;
+YY_DECL	FILE   *yyout = 0; //stdout;
 YY_DECL	int	yylineno = 1;		/* line number */
 
 /*

@@ -1416,13 +1416,13 @@ void ScaleDrawCallback(DrawElement* elem, DrawElemState state)
          ew = vs->internal_w;
       x = ew + vs->dot_margin;
       y = vs->dot_margin;
-      ElementDraw(draw,NULL, 0, 0, x, grd_canvas->bm.h);
+      ElementDraw(draw,0, 0, 0, x, grd_canvas->bm.h);
    }
    else
    {
       x = vs->dot_margin;
       y = grd_canvas->bm.h - (vs->dot_h + vs->dot_margin);
-      ElementDraw(draw, NULL, 0, 0, grd_canvas->bm.w, y);
+      ElementDraw(draw, 0, 0, 0, grd_canvas->bm.w, y);
    }
    draw->draw_flags = fl; // restore to old val
 
@@ -1461,7 +1461,7 @@ void ScaleDraw(void *data, LGadBox *vb)
    de.bcolor = BUTTON_DRAWELEM(vs).bcolor;
 
    // note assumption that we are in a canvas just right for us to draw into
-   ElementDraw(&de,NULL,0,0,grd_canvas->bm.w,grd_canvas->bm.h);
+   ElementDraw(&de,0,0,0,grd_canvas->bm.w,grd_canvas->bm.h);
 }
 #pragma on(unreferenced)
 void LGadInitScale(LGadScale *vs)
@@ -2760,7 +2760,7 @@ void EditMenuDrawCallback(DrawElement* elem, DrawElemState state)
             // strip out border and internal types so that we can use them on the input part
             fl = vm->elems[i].draw_flags;
             vm->elems[i].draw_flags = fl & DRAWFLAG_FORMAT_BITS;
-            ElementDraw(&(vm->elems[i]),NULL,x,y,ew,eh);
+            ElementDraw(&(vm->elems[i]),0,x,y,ew,eh);
             vm->elems[i].draw_flags = fl;
 
             // draw the input half
@@ -2791,7 +2791,7 @@ void EditMenuDrawCallback(DrawElement* elem, DrawElemState state)
 
             // go!  Note that we use the height of the label part so the editable
             // part can't be smaller than the label part.
-            ElementDraw(&d,NULL,x+ew+MENU_MARGIN,y,w-ew-MENU_MARGIN,eh);
+            ElementDraw(&d,0,x+ew+MENU_MARGIN,y,w-ew-MENU_MARGIN,eh);
             break;
          case EDITTYPE_CALLBACK:
          case EDITTYPE_CLOSE:
@@ -2802,11 +2802,11 @@ void EditMenuDrawCallback(DrawElement* elem, DrawElemState state)
             {
                temp_val = atoi(vm->varlist[i].edit);
                vm->elems[i].draw_data2 = (void *)&temp_val;
-               ElementDraw(&(vm->elems[i]),NULL,x,y,w,eh);
+               ElementDraw(&(vm->elems[i]),0,x,y,w,eh);
                vm->elems[i].draw_data2 = NULL;
             }
             else
-               ElementDraw(&(vm->elems[i]),NULL,x,y,w,eh);
+               ElementDraw(&(vm->elems[i]),0,x,y,w,eh);
             break;
       }
 

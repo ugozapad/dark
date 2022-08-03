@@ -1,9 +1,10 @@
 // $Header: x:/prj/tech/libsrc/lgd3d/RCS/render.c 1.26 1998/07/06 15:32:20 buzzard Exp $
-#include <mprintf.h>
+
 #include <stdio.h>
-
 #include <math.h>
-
+#include <lg_types.h>
+#include <lgassert.h>
+#include <mprintf.h>
 #include <windows.h>
 #include <memall.h>
 #include <tmpalloc.h>

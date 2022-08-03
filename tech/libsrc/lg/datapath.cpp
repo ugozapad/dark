@@ -346,7 +346,7 @@ bool DatapathAdd(Datapath *pdp, const char *path)
 
 	while (*p)
 		{
-         char* pplus = strchr(p,'+');
+         const char* pplus = strchr(p,'+');
 		psemi = strchr(p, ';');
       if (pplus != NULL) psemi = (psemi == NULL) ? pplus : min(psemi,pplus);
 		if (psemi == NULL)

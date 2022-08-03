@@ -41,7 +41,7 @@
 #include <lgSS2P.h>
 #include <memall.h>
 
-#include <../h_lib_remove/_newer/lgd3d.h>
+#include <../../h_lib_remove/_newer/lgd3d.h>
 
 #include <dbmem.h>   // must be last header! 
 

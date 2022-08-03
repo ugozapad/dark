@@ -22,10 +22,18 @@
 
 int cRelocationSetBase::Find(void **ptr)
 {
-    for (int i = m_nPtrs; --i >= 0;)
+	int i = 0;
+
+	for (int i = m_nPtrs; --i >= 0;)
         if (m_PtrList[i] == (uint8 **) ptr)
             break;
-    return i;
+
+	return i;
+
+    /*for (int i = m_nPtrs; --i >= 0;)
+        if (m_PtrList[i] == (uint8 **) ptr)
+            break;
+    return i;*/
 }
 
 

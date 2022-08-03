@@ -173,6 +173,7 @@ extern	int	yymapch	YY_ARGS((int delim, int escape));
 
 #include <lg.h>
 #include <stdlib.h>
+#include <stdio.h>
 #include <string.h>
 #include <hashtok.h>
 char identbuffer[80];
@@ -200,8 +201,8 @@ char identbuffer[80];
 #endif
 
 /* stdin and stdout may not neccessarily be constants */
-YY_DECL	FILE   *yyin = stdin;
-YY_DECL	FILE   *yyout = stdout;
+YY_DECL	FILE   *yyin = 0;
+YY_DECL	FILE   *yyout = 0;
 YY_DECL	int	yylineno = 1;		/* line number */
 
 /*
@@ -267,6 +268,11 @@ YYDECL {
 	int yyoldi, yyoleng;	/* base i, yyleng before look-ahead */
 	int yyeof;		/* 1 if eof has already been read */
 
+	if (yyin==0)
+		yyin = stdin;
+	
+	if (yyout==0)
+		yyout = stdout;
 
 
 	yyeof = 0;
