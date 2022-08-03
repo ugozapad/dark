@@ -10,3 +10,8 @@ STDMETHODIMP_(int) cLoopClientFactory::AddClient(sLoopClientDesc *pClientDesc)
 {
 	return 0;
 }
+
+int cLoopClientFactory::ReleaseAll()
+{
+	return 0;
+}

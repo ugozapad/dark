@@ -1,12 +1,21 @@
 #include <loopman.h>
 #include <lgassert.h>
 
-IMPLEMENT_SIMPLE_AGGREGATION_SELF_DELETE(cLoopManager);
+cLoopManager::cLoop* cLoopManager::cLoop::gm_pLoop = NULL;
 
-cLoopManager::cLoopManager( IUnknown *pOuterUnknown, unsigned int nMaxModes ) :
+IMPLEMENT_COMPLEX_AGGREGATE_CONTROL_DELETE_CLIENT(cLoopManager);
+
+cLoopManager::cLoopManager(IUnknown *pOuterUnknown, unsigned int nMaxModes) :
 	m_LoopClientFactory(pOuterUnknown)
 {
-	INIT_AGGREGATION_1(pOuterUnknown, IID_ILoopManager, this, kPriorityLibrary, NULL);
+	INIT_AGGREGATION_2( pOuterUnknown,
+						IID_ILoopManager,
+						this,
+						IID_ILoop,
+						cLoop::gm_pLoop,
+						kPriorityLibrary,
+						NULL );
+
 }
 
 STDMETHODIMP cLoopManager::AddClient(ILoopClient *pLoopClient, ulong *pCookie)
@@ -16,6 +25,19 @@ STDMETHODIMP cLoopManager::AddClient(ILoopClient *pLoopClient, ulong *pCookie)
 
 	return m_LoopClientFactory.AddClient(pLoopClientDesc);
 }
+
+// Complex aggregation methods
+STDMETHODIMP cLoopManager::Connect() { return 0; }
+STDMETHODIMP cLoopManager::PostConnect() { return 0; }
+STDMETHODIMP cLoopManager::Init() { return 0; }
+
+STDMETHODIMP cLoopManager::End()
+{
+	m_LoopClientFactory.ReleaseAll();
+	return 0;
+}
+
+STDMETHODIMP cLoopManager::Disconnect() { return 0; }
 
 int __stdcall _LoopManagerCreate(_GUID *__formal, ILoopManager **ppLoopManager, IUnknown *pOuterUnknown, unsigned int nMaxModes)
 {

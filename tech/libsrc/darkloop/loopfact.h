@@ -4,7 +4,7 @@
 #include <loopapi.h>
 #include <aggmemb.h>
 
-class cLoopClientFactory : public ILoopClientFactory
+class cLoopClientFactory : public cCTUnaggregated<ILoopClientFactory, &IID_ILoopClientFactory, kCTU_Default>
 {
 public:
 	cLoopClientFactory( IUnknown * pOuterUnknown );
@@ -29,6 +29,8 @@ public:
 	STDMETHOD (GetClient)(THIS_ tLoopClientID *, tLoopClientData, ILoopClient **);
 
 	STDMETHOD_(int, AddClient)( sLoopClientDesc *pClientDesc );
+
+	int ReleaseAll();
 }; 
 
 
