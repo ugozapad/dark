@@ -71,14 +71,14 @@ STDMETHODIMP cLoopClientFactory::GetClient(THIS_ tLoopClientID *pID, tLoopClient
 	return ppResult != 0 ? 0 : -2147467259;
 }
 
-STDMETHODIMP cLoopClientFactory::AddInnerFactory( ILoopClientFactory *pFactory )
+HRESULT cLoopClientFactory::AddInnerFactory( ILoopClientFactory *pFactory )
 {
 	m_InnerFactories.Append(pFactory);
 	pFactory->AddRef();
 	return 0;
 }
 
-STDMETHODIMP cLoopClientFactory::RemoveInnerFactory( ILoopClientFactory *pFactory )
+HRESULT cLoopClientFactory::RemoveInnerFactory( ILoopClientFactory *pFactory )
 {
 	for ( int i = 0; i < m_InnerFactories.Size(); ++i )
 	{
@@ -119,7 +119,7 @@ STDMETHODIMP_(int) cLoopClientFactory::AddClient( sLoopClientDesc *pClientDesc )
 	return 0;
 }
 
-STDMETHODIMP_(int) cLoopClientFactory::AddClients( sLoopClientDesc **ppClientDesc )
+int cLoopClientFactory::AddClients( sLoopClientDesc **ppClientDesc )
 {
 	int result = 0;
 

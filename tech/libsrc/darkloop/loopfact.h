@@ -38,7 +38,7 @@ public:
 	cLoopClientFactory();
 	~cLoopClientFactory();
 
-	DECLARE_SIMPLE_AGGREGATION(cLoopClientFactory);
+	DECLARE_UNAGGREGATABLE();
 
    	//
    	// Get the version of the loop client interface
@@ -57,13 +57,14 @@ public:
 	STDMETHOD (GetClient)(THIS_ tLoopClientID *, tLoopClientData, ILoopClient **);
 
 	// Inner Factory stuff
-	STDMETHOD (AddInnerFactory)( ILoopClientFactory *pFactory );
-	STDMETHOD (RemoveInnerFactory)( ILoopClientFactory *pFactory );
+	HRESULT AddInnerFactory( ILoopClientFactory *pFactory );
+	HRESULT RemoveInnerFactory( ILoopClientFactory *pFactory );
 
 	void ReleaseAll();
 
 	STDMETHOD_(int, AddClient)( sLoopClientDesc *pClientDesc );
-	STDMETHOD_(int, AddClients)( sLoopClientDesc **ppClientDesc );
+
+	int AddClients( sLoopClientDesc **ppClientDesc );
 
 private:
 	cLoopClientDescTable m_ClientDescs;
