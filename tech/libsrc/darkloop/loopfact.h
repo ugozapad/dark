@@ -8,6 +8,8 @@
 #include <looptype.h>
 #include <dynarray.h>
 
+class cLoopManager;
+
 class cLoopClientDescTable : public cGuidHashSet<sLoopClientDesc*>
 {
 public:
@@ -34,6 +36,7 @@ public:
 
 class cLoopClientFactory : public cCTUnaggregated<ILoopClientFactory, &IID_ILoopClientFactory, kCTU_Default>
 {
+	friend class cLoopManager;
 public:
 	cLoopClientFactory();
 	~cLoopClientFactory();

@@ -22,10 +22,17 @@ cLoopManager::cLoopManager(IUnknown *pOuterUnknown, unsigned int nMaxModes) :
 
 STDMETHODIMP cLoopManager::AddClient(ILoopClient *pLoopClient, ulong *pCookie)
 {
-	sLoopClientDesc* pLoopClientDesc = NULL;
-	AssertMsg(!pLoopClientDesc, "Cannot add client while loop client desc is null ptr.");
+	sLoopClientDesc *pLoopClientDesc = (sLoopClientDesc *)pLoopClient->GetDescription();
+	if ( m_LoopClientFactory.m_ClientDescs.Search( pLoopClientDesc->pID ) )
+		 CriticalMsg("Double add of loop client");
 
+//	*pCookie = (ulong)*pLoopClientDesc;
 	return m_LoopClientFactory.AddClient(pLoopClientDesc);
+}
+
+STDMETHODIMP cLoopManager::RemoveClient(THIS_ ulong cookie)
+{
+	return m_LoopClientFactory.RemoveClient(cookie);
 }
 
 // Complex aggregation methods
